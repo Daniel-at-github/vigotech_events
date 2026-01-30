@@ -1,0 +1,45 @@
+name: Fetch Calendar Events
+
+on:
+  schedule:
+    - cron: "0 2 * * *" # Run daily at 2:00 AM UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write # Allows the workflow to push commits to the repo
+
+jobs:
+  update-calendars:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Install uv
+        run: pip install uv
+
+      - name: Run Mobilizon fetch script
+        run: uv run etl/fetch_mobilizon.py
+
+      - name: Run Meetup fetch script
+        run: uv run etl/fetch_meetup.py
+
+      - name: Commit and Push Changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          # Add all JSON files in the calendars directory
+          git add calendars/*.json
+
+          # Check if there are actually changes to commit
+          # (This prevents the workflow from failing if there are no new events)
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            # Commit with [skip ci] to prevent this commit from triggering
+            # other workflows unnecessarily.
+            git commit -m "Update calendar data [skip ci]"
+            git push
+          fi
