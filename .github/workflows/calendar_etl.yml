@@ -25,16 +25,19 @@ jobs:
       - name: Run Meetup fetch script
         run: uv run etl/fetch_meetup.py
 
+      - name: Convert JSON to ICS
+        # Assumes the script is located at etl/json_to_ics.py based on your snippet
+        run: uv run etl/json_to_ics.py
+
       - name: Commit and Push Changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          # Add all JSON files in the calendars directory
-          git add calendars/*.json
+          # Add JSON source files and generated ICS files
+          git add calendars/*.json calendars/*.ics
 
           # Check if there are actually changes to commit
-          # (This prevents the workflow from failing if there are no new events)
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
