@@ -214,19 +214,27 @@ def __transform_event(event_node: Dict[str, Any]) -> Dict[str, Any]:
     title = event_node.get("title", "Unknown Title")
     event_url = event_node.get("eventUrl", "")
     date_str = event_node.get("dateTime")
-    end_str = event_node.get("endTime")  # New field
+    end_str = event_node.get("endTime")
 
-    # Calculate duration manually
-    duration_minutes = None
+    # Default duration: 2 hours (120 minutes)
+    duration_minutes = 120
+
+    # Try to calculate duration if API provides valid start/end times
     if date_str and end_str:
         try:
             start_dt = datetime.datetime.fromisoformat(date_str)
             end_dt = datetime.datetime.fromisoformat(end_str)
             delta = end_dt - start_dt
-            duration_minutes = int(delta.total_seconds() / 60)
+            calc_duration = int(delta.total_seconds() / 60)
+
+            # Only override default if calculation is valid and positive
+            if calc_duration > 0:
+                duration_minutes = calc_duration
         except (ValueError, TypeError):
+            # If parsing fails, keep the default of 120 minutes
             pass
 
+    # Convert start time to timestamp
     timestamp_ms = 0
     if date_str:
         try:
