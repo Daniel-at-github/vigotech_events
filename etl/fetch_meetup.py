@@ -119,7 +119,6 @@ def fetch_events_for_group(group_urlname: str) -> List[Dict[str, Any]]:
     print(f"Fetching events for: {group_urlname}")
 
     # 2. Define the Raw GraphQL Query
-    # We explicitly include 'duration' here.
     GQL_QUERY = """
     query getPastGroupEvents($urlname: String!, $beforeDateTime: DateTime!, $after: String) {
       groupByUrlname(urlname: $urlname) {
@@ -129,7 +128,7 @@ def fetch_events_for_group(group_urlname: str) -> List[Dict[str, Any]]:
               id
               title
               dateTime
-              duration
+              endTime
               eventUrl
             }
           }
@@ -215,9 +214,18 @@ def __transform_event(event_node: Dict[str, Any]) -> Dict[str, Any]:
     title = event_node.get("title", "Unknown Title")
     event_url = event_node.get("eventUrl", "")
     date_str = event_node.get("dateTime")
+    end_str = event_node.get("endTime")  # New field
 
-    # Meetup usually returns duration in minutes
-    duration_minutes = event_node.get("duration")
+    # Calculate duration manually
+    duration_minutes = None
+    if date_str and end_str:
+        try:
+            start_dt = datetime.datetime.fromisoformat(date_str)
+            end_dt = datetime.datetime.fromisoformat(end_str)
+            delta = end_dt - start_dt
+            duration_minutes = int(delta.total_seconds() / 60)
+        except (ValueError, TypeError):
+            pass
 
     timestamp_ms = 0
     if date_str:
