@@ -17,7 +17,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Install uv
-        run: pip install uv
+        run: curl -LsSf https://astral.sh/uv/install.sh | sh
 
       - name: Run Mobilizon fetch script
         run: uv run etl/fetch_mobilizon.py

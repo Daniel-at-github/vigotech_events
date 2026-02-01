@@ -19,7 +19,6 @@ Usage (from project root):
 
 import datetime
 import json
-import subprocess
 import sys
 import time
 from pathlib import Path
@@ -101,132 +100,74 @@ def fetch_events_for_group(
     group_urlname: str, graphql_hash: str
 ) -> List[Dict[str, Any]]:
     """
-    Fetches events for a specific group.
-
-    Logic:
-    1. Queries 'past' events up to 1 year in the future (to capture everything).
-    2. Filters results locally to keep events from the last 1.5 years onwards.
-    3. Includes a fallback mechanism: if the API returns a 400/PersistedQuery error,
-       it attempts to re-discover the hash using Playwright and retries the request.
+    Fetches events using a raw GraphQL query string to ensure we get 'duration'.
     """
     events = []
     cursor = None
     has_next_page = True
 
     # 1. Time Logic Setup
-    # We set the API horizon to 1 year in the future.
-    # Using the 'past' query with a far-future 'before' date allows us to fetch
-    # all history available in one direction.
     future_horizon = (
         (datetime.datetime.now(datetime.timezone.utc) + datetime.timedelta(days=365))
         .isoformat()
         .replace("+00:00", "Z")
     )
-
-    # Calculate cutoff: 1.5 years (approx 540 days) ago
     cutoff_date = datetime.datetime.now(datetime.timezone.utc) - datetime.timedelta(
         days=540
     )
 
     print(f"Fetching events for: {group_urlname}")
 
+    # 2. Define the Raw GraphQL Query
+    # We explicitly include 'duration' here.
+    GQL_QUERY = """
+    query getPastGroupEvents($urlname: String!, $beforeDateTime: DateTime!, $after: String) {
+      groupByUrlname(urlname: $urlname) {
+        events(beforeDateTime: $beforeDateTime, after: $after) {
+          edges {
+            node {
+              id
+              title
+              dateTime
+              duration
+              eventUrl
+            }
+          }
+          pageInfo {
+            hasNextPage
+            endCursor
+          }
+        }
+      }
+    }
+    """
+
     while has_next_page:
         variables = {"urlname": group_urlname, "beforeDateTime": future_horizon}
         if cursor:
             variables["after"] = cursor
 
+        # 3. Payload Structure: Use 'query' instead of 'extensions'
         payload = {
             "operationName": "getPastGroupEvents",
+            "query": GQL_QUERY,
             "variables": variables,
-            "extensions": {
-                "persistedQuery": {"version": 1, "sha256Hash": graphql_hash}
-            },
         }
 
         try:
-            # 2. Make Request (with tenacity retries for network errors)
             response = __make_request(payload)
 
-            # 3. Handle Specific API Errors (Hash Invalid?)
             if response.status_code != 200:
-                err_body = {}
+                print(
+                    f"Error fetching {group_urlname}: HTTP {response.status_code}",
+                    file=sys.stderr,
+                )
                 try:
-                    err_body = response.json()
+                    print(f"Response body: {response.text[:200]}", file=sys.stderr)
                 except:
                     pass
+                break
 
-                # Check specifically for PersistedQueryNotFound (usually HTTP 400)
-                is_hash_error = response.status_code == 400 or (
-                    isinstance(err_body, dict)
-                    and "PersistedQueryNotFound" in str(err_body)
-                )
-
-                if is_hash_error:
-                    print(
-                        f"  !! API Error: Invalid Hash for {group_urlname}.",
-                        file=sys.stderr,
-                    )
-                    print("  !! Attempting auto-discovery...", file=sys.stderr)
-
-                    try:
-                        # Run the discovery script as a subprocess
-                        # Assumes 'discover_meetup_hash.py' is in the etl folder
-                        subprocess.run(
-                            ["uv", "run", "etl/discover_meetup_hash.py"],
-                            check=True,
-                            capture_output=True,
-                        )
-
-                        print(
-                            "  !! Hash updated. Reloading config and retrying...",
-                            file=sys.stderr,
-                        )
-
-                        # Reload the config to get the fresh hash
-                        new_config = load_config()
-                        new_hash = new_config.get("graphql_hash")
-
-                        if new_hash:
-                            payload["extensions"]["persistedQuery"]["sha256Hash"] = (
-                                new_hash
-                            )
-                            # Retry the request immediately
-                            response = __make_request(payload)
-                        else:
-                            print(
-                                "  !! Discovery succeeded but no hash found in config.",
-                                file=sys.stderr,
-                            )
-
-                    except subprocess.CalledProcessError as e:
-                        print(f"  !! Auto-discovery failed: {e}", file=sys.stderr)
-                        print(
-                            f"  !! Response: {e.stderr.decode() if e.stderr else ''}",
-                            file=sys.stderr,
-                        )
-                        # If discovery fails, we can't proceed with this group
-                        break
-
-                    # If retry still fails, break
-                    if response.status_code != 200:
-                        print(
-                            f"  !! Retry failed. Aborting fetch for {group_urlname}.",
-                            file=sys.stderr,
-                        )
-                        break
-                else:
-                    # Non-hash related HTTP error
-                    print(
-                        f"Error fetching {group_urlname}: HTTP {response.status_code}",
-                        file=sys.stderr,
-                    )
-                    try:
-                        print(f"Response body: {response.text[:200]}", file=sys.stderr)
-                    except:
-                        pass
-                    break
-
-            # 4. Parse Response
             data = response.json()
             group_data = data.get("data", {}).get("groupByUrlname")
 
@@ -240,11 +181,9 @@ def fetch_events_for_group(
 
             for edge in edges:
                 node = edge.get("node", {})
-
-                # 5. Transform and Filter
                 transformed = __transform_event(node)
 
-                # Parse date to apply the "1.5 years ago" filter
+                # Parse date for filtering
                 dt_obj = None
                 date_str = node.get("dateTime")
                 if date_str:
@@ -254,15 +193,9 @@ def fetch_events_for_group(
                         pass
 
                 if dt_obj:
-                    # Keep if event is after the cutoff (Future + Recent Past)
                     if dt_obj >= cutoff_date:
                         events.append(transformed)
-                    # Note: If dt_obj is older than cutoff, we just skip it.
-                    # Since Meetup returns descending (newest first), theoretically
-                    # we *could* break the loop here, but pagination order isn't
-                    # always guaranteed, so we iterate safely.
 
-            # 6. Pagination
             has_next_page = page_info.get("hasNextPage", False)
             cursor = page_info.get("endCursor")
 
@@ -273,7 +206,7 @@ def fetch_events_for_group(
             print(f"Unexpected error processing {group_urlname}: {e}", file=sys.stderr)
             break
 
-    print(f"  -> Found {len(events)} events within the last 1.5 years and future.")
+    print(f"  -> Found {len(events)} events.")
     return events
 
 
