@@ -12,24 +12,11 @@ json_to_ics.py
 
 This script reads JSON event files from a specific directory and converts them
 into standard iCalendar (.ics) files.
-
-Usage:
-    uv run json_to_ics.py
-
-JSON Format Expected:
-    [
-        {
-            "title": "Event Title",
-            "date": 1764961200000,  # Milliseconds since epoch
-            "url": "https://example.com/event"
-        },
-        ...
-    ]
 """
 
 import json
 import sys
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone  # Added timedelta
 from pathlib import Path
 
 from ics import Calendar, Event
@@ -48,7 +35,6 @@ def convert_ms_to_datetime(ms_timestamp: int) -> datetime:
 def process_json_file(json_path: Path):
     """
     Reads a single JSON file and writes a corresponding .ics file.
-    Handles errors specific to this file without stopping the whole script.
     """
     try:
         # Read JSON data
@@ -90,6 +76,10 @@ def process_json_file(json_path: Path):
                 event = Event()
                 event.name = title
                 event.begin = event_date
+
+                # Add a default duration so the event appears as a block/bar in the calendar
+                event.duration = timedelta(hours=2)
+
                 # Using URL as the description if no other text is provided
                 event.description = url
                 event.url = url
@@ -97,7 +87,6 @@ def process_json_file(json_path: Path):
                 calendar.events.add(event)
 
             except Exception as e:
-                # Log error for a specific event item but continue processing the file
                 print(
                     f"Error processing item in {json_path.name}: {e}",
                     file=sys.stderr,
@@ -114,7 +103,6 @@ def process_json_file(json_path: Path):
             print(f"Error writing {output_path.name}: {e}", file=sys.stderr)
 
     except Exception as e:
-        # Catch-all for unexpected logic errors within this file's processing
         print(f"Unexpected error processing {json_path.name}: {e}", file=sys.stderr)
 
 

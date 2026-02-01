@@ -26,23 +26,24 @@ jobs:
         run: uv run etl/fetch_meetup.py
 
       - name: Convert JSON to ICS
-        # Assumes the script is located at etl/json_to_ics.py based on your snippet
         run: uv run etl/json_to_ics.py
+
+      - name: Generate Website
+        # Installs jinja2 temporarily to run the script
+        run: uv run --with jinja2 etl/generate_website.py
 
       - name: Commit and Push Changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          # Add JSON source files and generated ICS files
-          git add calendars/*.json calendars/*.ics
+          # Add JSON, ICS, and the generated Index
+          git add calendars/*.json calendars/*.ics index.html
 
-          # Check if there are actually changes to commit
+          # Check if there are changes
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
-            # Commit with [skip ci] to prevent this commit from triggering
-            # other workflows unnecessarily.
-            git commit -m "Update calendar data [skip ci]"
+            git commit -m "Update calendar data and website [skip ci]"
             git push
           fi
