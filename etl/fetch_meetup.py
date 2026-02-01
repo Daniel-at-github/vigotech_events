@@ -3,31 +3,36 @@
 # requires-python = ">=3.9"
 # dependencies = [
 #     "requests>=2.32.0",
+#     "tenacity>=8.0.0",
 # ]
 # ///
 
 """
 Fetch Meetup Events without Authentication.
 
-This script reads a list of Meetup groups from 'meetup.json' (located at project root),
-fetches all past events for each group via the public GraphQL API,
-and saves the results to the 'calendars/' directory.
+This script reads configuration from 'meetup.json', fetches events
+from the public GraphQL API, and saves the results to 'calendars/'.
 
 Usage (from project root):
     uv run etl/fetch_meetup.py
 """
 
+import datetime
 import json
 import sys
 import time
-import datetime
-import requests
 from pathlib import Path
-from typing import List, Dict, Any
+from typing import Any, Dict, List
+
+import requests
+from tenacity import (
+    retry,
+    retry_if_exception_type,
+    stop_after_attempt,
+    wait_exponential,
+)
 
 # --- Paths Configuration ---
-# Try to locate meetup.json in the current directory or the parent directory
-# to allow running the script from the project root or from inside etl/
 CONFIG_PATH = Path("etl") / "meetup.json"
 if not CONFIG_PATH.exists():
     CONFIG_PATH = Path(__file__).parent.parent / "meetup.json"
@@ -37,58 +42,89 @@ OUTPUT_DIR = Path("calendars")
 # --- API Constants ---
 API_URL = "https://www.meetup.com/gql2"
 PAGINATION_DELAY = 0.5
-PERSISTED_QUERY_HASH = "9463f7c9ab5b08db3f2172223c806fb48993508781cd939184d9151c75214e3a"
 
 HEADERS = {
-    'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64; rv:147.0) Gecko/20100101 Firefox/147.0',
-    'Accept': '*/*',
-    'Accept-Language': 'en-US,en;q=0.5',
-    'content-type': 'application/json',
-    'apollographql-client-name': 'nextjs-web',
-    'Referer': 'https://www.meetup.com/',
-    'Origin': 'https://www.meetup.com',
-    'Connection': 'keep-alive',
+    "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:147.0) Gecko/20100101 Firefox/147.0",
+    "Accept": "*/*",
+    "Accept-Language": "en-US,en;q=0.5",
+    "content-type": "application/json",
+    "apollographql-client-name": "nextjs-web",
+    "Referer": "https://www.meetup.com/",
+    "Origin": "https://www.meetup.com",
+    "Connection": "keep-alive",
 }
 
 
-def load_config() -> List[str]:
-    """Loads the list of group usernames from meetup.json."""
+def load_config() -> Dict[str, Any]:
+    """Loads the configuration (groups and hash) from meetup.json."""
     if not CONFIG_PATH.exists():
         print(f"Error: Configuration file '{CONFIG_PATH}' not found.", file=sys.stderr)
         sys.exit(1)
 
     try:
-        with open(CONFIG_PATH, 'r', encoding='utf-8') as f:
-            groups = json.load(f)
+        with open(CONFIG_PATH, "r", encoding="utf-8") as f:
+            config = json.load(f)
 
-            if not isinstance(groups, list):
-                print(f"Error: {CONFIG_PATH} must contain a JSON list.", file=sys.stderr)
+            if not isinstance(config, dict):
+                print(
+                    f"Error: {CONFIG_PATH} must be a JSON object with 'groups' and 'graphql_hash'.",
+                    file=sys.stderr,
+                )
                 sys.exit(1)
 
-            return groups
+            if "groups" not in config or "graphql_hash" not in config:
+                print(
+                    f"Error: {CONFIG_PATH} missing 'groups' or 'graphql_hash'.",
+                    file=sys.stderr,
+                )
+                sys.exit(1)
+
+            return config
     except json.JSONDecodeError as e:
         print(f"Error: Failed to parse {CONFIG_PATH}. {e}", file=sys.stderr)
         sys.exit(1)
 
 
-def fetch_events_for_group(group_urlname: str) -> List[Dict[str, Any]]:
+@retry(
+    stop=stop_after_attempt(3),
+    wait=wait_exponential(multiplier=1, min=4, max=10),
+    retry=retry_if_exception_type(requests.exceptions.RequestException),
+    reraise=True,
+)
+def __make_request(payload: Dict) -> requests.Response:
+    """Internal helper to perform the HTTP POST request with retries."""
+    return requests.post(API_URL, json=payload, headers=HEADERS, timeout=15)
+
+
+def fetch_events_for_group(
+    group_urlname: str, graphql_hash: str
+) -> List[Dict[str, Any]]:
     """
-    Fetches all past events for a specific group.
+    Fetches events.
+    Logic: Fetch 'past' events up to a date far in the future to get everything,
+    then filter locally to keep last 1.5 years + all future.
     """
     events = []
     cursor = None
     has_next_page = True
 
-    # Set a future date to ensure we capture all "past" events relative to now
-    before_date = (datetime.datetime.now(datetime.timezone.utc) + datetime.timedelta(days=365)).isoformat().replace('+00:00', 'Z')
+    # We set the horizon to 1 year in the future to ensure we catch all future events
+    # using the 'past' events endpoint (which essentially acts as 'all events' if before is far away).
+    future_horizon = (
+        (datetime.datetime.now(datetime.timezone.utc) + datetime.timedelta(days=365))
+        .isoformat()
+        .replace("+00:00", "Z")
+    )
+
+    # Calculate cutoff date (1.5 years ago)
+    cutoff_date = datetime.datetime.now(datetime.timezone.utc) - datetime.timedelta(
+        days=540
+    )  # 18 months
 
     print(f"Fetching events for: {group_urlname}")
 
     while has_next_page:
-        variables = {
-            "urlname": group_urlname,
-            "beforeDateTime": before_date
-        }
+        variables = {"urlname": group_urlname, "beforeDateTime": future_horizon}
         if cursor:
             variables["after"] = cursor
 
@@ -96,44 +132,70 @@ def fetch_events_for_group(group_urlname: str) -> List[Dict[str, Any]]:
             "operationName": "getPastGroupEvents",
             "variables": variables,
             "extensions": {
-                "persistedQuery": {
-                    "version": 1,
-                    "sha256Hash": PERSISTED_QUERY_HASH
-                }
-            }
+                "persistedQuery": {"version": 1, "sha256Hash": graphql_hash}
+            },
         }
 
         try:
             response = __make_request(payload)
 
-            if not response:
-                break
-
             if response.status_code != 200:
-                print(f"Error fetching {group_urlname}: HTTP {response.status_code}", file=sys.stderr)
+                print(
+                    f"Error fetching {group_urlname}: HTTP {response.status_code}",
+                    file=sys.stderr,
+                )
                 try:
-                    print(f"Response body: {response.text[:200]}", file=sys.stderr)
+                    err_data = response.json()
+                    print(f"API Error: {err_data}", file=sys.stderr)
                 except:
-                    pass
+                    print(f"Response body: {response.text[:200]}", file=sys.stderr)
                 break
 
             data = response.json()
-            group_data = data.get('data', {}).get('groupByUrlname')
+            group_data = data.get("data", {}).get("groupByUrlname")
 
             if not group_data:
-                print(f"No data found for {group_urlname}. The group might not exist or be private.", file=sys.stderr)
+                print(
+                    f"No data found for {group_urlname}. The group might not exist.",
+                    file=sys.stderr,
+                )
                 break
 
-            events_data = group_data.get('events', {})
-            edges = events_data.get('edges', [])
-            page_info = events_data.get('pageInfo', {})
+            events_data = group_data.get("events", {})
+            edges = events_data.get("edges", [])
+            page_info = events_data.get("pageInfo", {})
 
             for edge in edges:
-                node = edge.get('node', {})
-                events.append(__transform_event(node))
+                node = edge.get("node", {})
 
-            has_next_page = page_info.get('hasNextPage', False)
-            cursor = page_info.get('endCursor')
+                # Transform immediately
+                transformed = __transform_event(node)
+
+                # Filter logic: Keep events starting after cutoff OR keep it if it's very recent
+                # (Since 'past' query usually returns newest first, we stop if we go too far back)
+
+                # 1. Parse date from the transformed event (or raw node) to check cutoff
+                dt_obj = None
+                date_str = node.get("dateTime")
+                if date_str:
+                    try:
+                        dt_obj = datetime.datetime.fromisoformat(date_str)
+                    except ValueError:
+                        pass
+
+                # If date is valid
+                if dt_obj:
+                    if dt_obj >= cutoff_date:
+                        events.append(transformed)
+                    else:
+                        # Optimization: Since API returns descending (newest first),
+                        # if we hit a date older than cutoff, we are done for this page.
+                        # Note: Some APIs return mixed pagination, but Meetup GQL is usually chronological.
+                        # We'll rely on the logic: append if valid, loop continues until pagination ends.
+                        pass
+
+            has_next_page = page_info.get("hasNextPage", False)
+            cursor = page_info.get("endCursor")
 
             if has_next_page:
                 time.sleep(PAGINATION_DELAY)
@@ -142,24 +204,18 @@ def fetch_events_for_group(group_urlname: str) -> List[Dict[str, Any]]:
             print(f"Unexpected error processing {group_urlname}: {e}", file=sys.stderr)
             break
 
-    print(f"  -> Found {len(events)} events.")
+    print(f"  -> Found {len(events)} events within the last 1.5 years and future.")
     return events
-
-
-def __make_request(payload: Dict) -> Any:
-    """Internal helper to perform the HTTP POST request safely."""
-    try:
-        return requests.post(API_URL, json=payload, headers=HEADERS, timeout=10)
-    except requests.exceptions.RequestException as e:
-        print(f"Network error: {e}", file=sys.stderr)
-        return None
 
 
 def __transform_event(event_node: Dict[str, Any]) -> Dict[str, Any]:
     """Transforms the raw event node into the required output schema."""
-    title = event_node.get('title', 'Unknown Title')
-    event_url = event_node.get('eventUrl', '')
-    date_str = event_node.get('dateTime')
+    title = event_node.get("title", "Unknown Title")
+    event_url = event_node.get("eventUrl", "")
+    date_str = event_node.get("dateTime")
+
+    # Meetup usually returns duration in minutes
+    duration_minutes = event_node.get("duration")
 
     timestamp_ms = 0
     if date_str:
@@ -172,23 +228,22 @@ def __transform_event(event_node: Dict[str, Any]) -> Dict[str, Any]:
     return {
         "title": title,
         "date": timestamp_ms,
-        "url": event_url
+        "url": event_url,
+        "duration": duration_minutes,
     }
 
 
 def save_output(group_name: str, events: List[Dict[str, Any]]) -> None:
-    """Saves the list of events to a JSON file inside the calendars/ directory."""
+    """Saves the list of events to a JSON file."""
     if not events:
         print(f"  -> No events to save for {group_name}.")
         return
 
-    # Ensure the output directory exists
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
-
     filename = OUTPUT_DIR / f"{group_name}.json"
 
     try:
-        with open(filename, 'w', encoding='utf-8') as f:
+        with open(filename, "w", encoding="utf-8") as f:
             json.dump(events, f, indent=4)
         print(f"  -> Saved to {filename}")
     except IOError as e:
@@ -198,10 +253,13 @@ def save_output(group_name: str, events: List[Dict[str, Any]]) -> None:
 def main():
     print("--- Meetup Event Fetcher ---")
 
-    # Resolve paths relative to where the script is being called usually
-    # The CONFIG_PATH logic handles finding meetup.json regardless of CWD
+    config = load_config()
+    groups = config.get("groups", [])
+    graphql_hash = config.get("graphql_hash", "")
 
-    groups = load_config()
+    if not graphql_hash:
+        print("Error: graphql_hash is missing in config.", file=sys.stderr)
+        sys.exit(1)
 
     for group in groups:
         if not isinstance(group, str) or not group:
@@ -209,7 +267,7 @@ def main():
             continue
 
         try:
-            events = fetch_events_for_group(group)
+            events = fetch_events_for_group(group, graphql_hash)
             save_output(group, events)
         except KeyboardInterrupt:
             print("\nProcess interrupted by user.", file=sys.stderr)
@@ -218,6 +276,7 @@ def main():
             print(f"Failed to process group {group}: {e}", file=sys.stderr)
 
     print("--- Done ---")
+
 
 if __name__ == "__main__":
     main()
