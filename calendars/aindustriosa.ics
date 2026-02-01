@@ -2,347 +2,331 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/299611775/
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/266584552/
 DURATION:PT2H
-DTSTART:20240613T170000Z
-SUMMARY:Descubre o poder da programación funcional a través de OCaml
-UID:dca25b19-39a3-4bf3-ad27-aff8eedaa44b@dca2.org
-URL:https://www.meetup.com/aindustriosa/events/299611775/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/245448501/
-DURATION:PT2H
-DTSTART:20171214T183000Z
-SUMMARY:#15- Introducción a Blockchain
-UID:18537a7b-6f95-41aa-bfcc-2426b379cbd7@1853.org
-URL:https://www.meetup.com/aindustriosa/events/245448501/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/298258392/
-DURATION:PT2H
-DTSTART:20240120T100000Z
-SUMMARY:Menores e Novas Tecnoloxías - Benvidos ao deserto do real
-UID:f494a54e-a8c3-42d4-904c-9eef2d5d5d5b@f494.org
-URL:https://www.meetup.com/aindustriosa/events/298258392/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/276480762/
-DURATION:PT2H
-DTSTART:20210227T160000Z
-SUMMARY:Ultracasa 3000\, o cómo domotizar tu casa con Home Assistant.
-UID:8efa7c7a-9ba0-4cf8-a579-caf7e9f5a090@8efa.org
-URL:https://www.meetup.com/aindustriosa/events/276480762/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/291871718/
-DURATION:PT2H
-DTSTART:20230304T100000Z
-SUMMARY:Python\, kata e almorzo / Python\, kata y desayuno - 8ª Edición
-UID:5af69b1e-b745-45e0-81eb-3bb497714342@5af6.org
-URL:https://www.meetup.com/aindustriosa/events/291871718/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/294439804/
-DURATION:PT2H
-DTSTART:20230701T150000Z
-SUMMARY:Repair Café
-UID:41c27816-7035-432a-91c6-4bcfa14fedc8@41c2.org
-URL:https://www.meetup.com/aindustriosa/events/294439804/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/288645805/
-DURATION:PT2H
-DTSTART:20221009T090000Z
-SUMMARY:XORNADAS DE INICIACIÓN AO CULTIVO DE BANCAIS E AUTOMATIZACIÓN
-UID:770e55f9-5b34-42cc-9074-595f4dda518e@770e.org
-URL:https://www.meetup.com/aindustriosa/events/288645805/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/307599235/
-DURATION:PT2H
-DTSTART:20250618T170000Z
-SUMMARY:Obradoiro de iniciación ó modelado 3d con Blender
-UID:27bcc64b-2ab2-4915-ac20-66269ba7531c@27bc.org
-URL:https://www.meetup.com/aindustriosa/events/307599235/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/260702390/
-DURATION:PT2H
-DTSTART:20190511T090000Z
-SUMMARY:Taller Fotogrametría Low Cost (Parte 2): Arreglo y optimización de réplicas 3D
-UID:2ea80e3e-5ef7-4474-92d7-27c2f5049852@2ea8.org
-URL:https://www.meetup.com/aindustriosa/events/260702390/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/249702112/
-DURATION:PT2H
-DTSTART:20180421T083000Z
-SUMMARY:Taller Escornabot: Constrúe e lévate a casa o teu primeiro robot
-UID:cbda3e4a-f89a-4620-9580-fafec771d953@cbda.org
-URL:https://www.meetup.com/aindustriosa/events/249702112/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/239321508/
-DURATION:PT2H
-DTSTART:20170515T173000Z
-SUMMARY:#11 - De prototipo a empresa internacional.
-UID:445057cc-cc02-4388-ab36-47bb51cb62e1@4450.org
-URL:https://www.meetup.com/aindustriosa/events/239321508/
+DTSTART:20191204T180000Z
+SUMMARY:Comunicaciones GMDSS y su aplicación con Arduino
+UID:7aa9aa73-58f6-4870-bbe2-429bf7c8d353@7aa9.org
+URL:https://www.meetup.com/aindustriosa/events/266584552/
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:https://www.meetup.com/aindustriosa/events/301594735/
 DURATION:PT2H
 DTSTART:20240713T090000Z
 SUMMARY:Son de alta resolución en sistemas GNU/Linux
-UID:b0cf58bf-b60b-4455-a337-d49c022fedfa@b0cf.org
+UID:ef299d4a-3e06-48ec-8e72-c0e5c85ca90e@ef29.org
 URL:https://www.meetup.com/aindustriosa/events/301594735/
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/264164742/
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/307588913/
 DURATION:PT2H
-DTSTART:20190914T080000Z
-SUMMARY:Hackathon sobre e-textiles
-UID:71086ea6-2d0e-4942-a29b-2231b94a683d@7108.org
-URL:https://www.meetup.com/aindustriosa/events/264164742/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/251039623/
-DURATION:PT2H
-DTSTART:20180601T170000Z
-SUMMARY:Robótica educativa. "Garabullo".
-UID:aa42880e-8a86-48f2-aab4-66ffbea695bd@aa42.org
-URL:https://www.meetup.com/aindustriosa/events/251039623/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/243513635/
-DURATION:PT2H
-DTSTART:20171005T163000Z
-SUMMARY:[A Industriosa]Obradoiro introdución a GIT
-UID:3f83b44a-2433-4643-93e0-f2811d6a4c1b@3f83.org
-URL:https://www.meetup.com/aindustriosa/events/243513635/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/286337012/
-DURATION:PT2H
-DTSTART:20220617T160000Z
-SUMMARY:Sensores CO2 maker para combatir a pandemia COVID-19
-UID:bdd4f0e9-0679-46a4-bea8-217587f6dee9@bdd4.org
-URL:https://www.meetup.com/aindustriosa/events/286337012/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/272210422/
-DURATION:PT2H
-DTSTART:20200801T093000Z
-SUMMARY:Hackeando mi robot aspirador
-UID:a5db6539-701b-4d8e-b741-6b9bb0d3d210@a5db.org
-URL:https://www.meetup.com/aindustriosa/events/272210422/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/247653367/
-DURATION:PT2H
-DTSTART:20180309T180000Z
-SUMMARY:#18 - Robótica de competición (Carreras\, mini-sumo y humanoides)
-UID:c3b11b2e-a9bb-470c-92b4-082e8e4c1214@c3b1.org
-URL:https://www.meetup.com/aindustriosa/events/247653367/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/279527031/
-DURATION:PT2H
-DTSTART:20210821T090000Z
-SUMMARY:Obradoiro/Hackathon Rural LoRaWAN
-UID:dc5220cc-83a4-483b-88db-bdc1563b49c6@dc52.org
-URL:https://www.meetup.com/aindustriosa/events/279527031/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/247969543/
-DURATION:PT2H
-DTSTART:20180301T180000Z
-SUMMARY:#17 - Monitorización de una regata de barcos radiocontrol
-UID:8d9adf7b-0048-4d79-9349-71de1e2b7b83@8d9a.org
-URL:https://www.meetup.com/aindustriosa/events/247969543/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/240444570/
-DURATION:PT2H
-DTSTART:20170609T160000Z
-SUMMARY:A Industriosa- Workshop ESP8266
-UID:1a09d74b-82fd-410d-9929-fca0a6dd4ee7@1a09.org
-URL:https://www.meetup.com/aindustriosa/events/240444570/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/237549696/
-DURATION:PT2H
-DTSTART:20170314T183000Z
-SUMMARY:#8 - Introduccion MQTT
-UID:c0bfef23-f6ff-4186-986b-cb1bc1795a5c@c0bf.org
-URL:https://www.meetup.com/aindustriosa/events/237549696/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/238600328/
-DURATION:PT2H
-DTSTART:20170403T173000Z
-SUMMARY:#10 - Introdución ó deseño naval
-UID:0570edd6-1a1d-4ff6-a593-7e0a9c55eac1@0570.org
-URL:https://www.meetup.com/aindustriosa/events/238600328/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/247653018/
-DURATION:PT2H
-DTSTART:20180216T170000Z
-SUMMARY:Bulebule: making off de un robot 'micromouse'
-UID:6ecc2949-8a8f-47b3-94b1-54840a43da3e@6ecc.org
-URL:https://www.meetup.com/aindustriosa/events/247653018/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/282340940/
-DURATION:PT2H
-DTSTART:20211218T090000Z
-SUMMARY:Obradoiro de iniciación á soldadura electrónica
-UID:731c7e92-c17a-4fe9-a739-32207d05fb81@731c.org
-URL:https://www.meetup.com/aindustriosa/events/282340940/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/266584552/
-DURATION:PT2H
-DTSTART:20191204T180000Z
-SUMMARY:Comunicaciones GMDSS y su aplicación con Arduino
-UID:80a6c111-cda4-47f8-b037-ab5d343ac065@80a6.org
-URL:https://www.meetup.com/aindustriosa/events/266584552/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/241015376/
-DURATION:PT2H
-DTSTART:20170630T160000Z
-SUMMARY:A Industriosa- Workshop ESP8266
-UID:ddc41180-1ece-449d-b2ec-bc1c739e5258@ddc4.org
-URL:https://www.meetup.com/aindustriosa/events/241015376/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/292116591/
-DURATION:PT2H
-DTSTART:20230318T083000Z
-SUMMARY:Kata mensual de Embedded Rust por Eloy Coto
-UID:4d2b563a-38e3-4b36-888e-fde6126bae29@4d2b.org
-URL:https://www.meetup.com/aindustriosa/events/292116591/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/259736933/
-DURATION:PT2H
-DTSTART:20190320T180000Z
-SUMMARY:Introducción a las FPGAs+Verilog
-UID:36d57401-a343-4881-a7a1-2c6b53365cee@36d5.org
-URL:https://www.meetup.com/aindustriosa/events/259736933/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/303708479/
-DURATION:PT2H
-DTSTART:20241030T180000Z
-SUMMARY:A revolución da computación cuántica e as súas aplicacións.
-UID:40a9ec6d-259e-4aee-97b8-91a1af53af7e@40a9.org
-URL:https://www.meetup.com/aindustriosa/events/303708479/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/294783869/
-DURATION:PT2H
-DTSTART:20230719T163000Z
-SUMMARY:Kata mensual de Embedded Rust por Eloy Coto
-UID:9cbe053b-92bc-487c-a32e-920509acdb17@9cbe.org
-URL:https://www.meetup.com/aindustriosa/events/294783869/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/258786579/
-DURATION:PT2H
-DTSTART:20190227T180000Z
-SUMMARY:Cómo construirte una impresora 3d XXL
-UID:46f8e47e-5356-4ca6-be2e-4ded46f82cd0@46f8.org
-URL:https://www.meetup.com/aindustriosa/events/258786579/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/289832355/
-DURATION:PT2H
-DTSTART:20221123T180000Z
-SUMMARY:Obradoiro de Iniciación a Impresión 3D
-UID:3ba50fa8-8a46-4944-addb-daae0fcba40b@3ba5.org
-URL:https://www.meetup.com/aindustriosa/events/289832355/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/265833034/
-DURATION:PT2H
-DTSTART:20191026T103000Z
-SUMMARY:Python\, kata e almorzo / Python\, kata y desayuno
-UID:bcb8c363-af51-462e-92f7-29a340eada41@bcb8.org
-URL:https://www.meetup.com/aindustriosa/events/265833034/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/292975598/
-DURATION:PT2H
-DTSTART:20230511T173000Z
-SUMMARY:Engineering Manager: Beyond Leadership
-UID:59d09eda-dd66-40c3-9380-6d16da8046f7@59d0.org
-URL:https://www.meetup.com/aindustriosa/events/292975598/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/284056495/
-DURATION:PT2H
-DTSTART:20220219T103000Z
-SUMMARY:Kata de Micropython e microcontroladores - 1ª Edición
-UID:6cb1122a-5756-4aa0-8f63-16fadcd68328@6cb1.org
-URL:https://www.meetup.com/aindustriosa/events/284056495/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/292700602/
-DURATION:PT2H
-DTSTART:20230415T073000Z
-SUMMARY:Kata mensual de Embedded Rust por Eloy Coto
-UID:74dd9210-e914-4df2-b4db-2c98ad8ce89c@74dd.org
-URL:https://www.meetup.com/aindustriosa/events/292700602/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/302268389/
-DURATION:PT2H
-DTSTART:20240720T090000Z
-SUMMARY:Obradoiro Segueliñas Rust
-UID:bca6b1f7-f772-4d9c-8118-fdfcb75b03e6@bca6.org
-URL:https://www.meetup.com/aindustriosa/events/302268389/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/301906740/
-DURATION:PT2H
-DTSTART:20240706T093000Z
-SUMMARY:Aventura Plástica
-UID:55428302-234a-4fe2-801c-36e2963d531f@5542.org
-URL:https://www.meetup.com/aindustriosa/events/301906740/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/307589756/
-DURATION:PT2H
-DTSTART:20250521T170000Z
+DTSTART:20250507T170000Z
 SUMMARY:Obradoiro de iniciación ó modelado 3d con Blender
-UID:46686ae8-4aa5-48b7-a2e4-02ce119e4b07@4668.org
-URL:https://www.meetup.com/aindustriosa/events/307589756/
+UID:af1147cb-a502-48b7-a311-f8c9458b50d5@af11.org
+URL:https://www.meetup.com/aindustriosa/events/307588913/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/307599235/
+DURATION:PT2H
+DTSTART:20250618T170000Z
+SUMMARY:Obradoiro de iniciación ó modelado 3d con Blender
+UID:a956068a-9208-4f2c-9841-51e5f05e5ef1@a956.org
+URL:https://www.meetup.com/aindustriosa/events/307599235/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/292976563/
+DURATION:PT2H
+DTSTART:20230424T173000Z
+SUMMARY:Iniciación a impresión 3D
+UID:107af125-5599-42bc-9c28-dd6d77ea0746@107a.org
+URL:https://www.meetup.com/aindustriosa/events/292976563/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/267725590/
+DURATION:PT2H
+DTSTART:20200307T090000Z
+SUMMARY:Curso preparación para Exame Oficial de Radioafeccionado - Terceira sesión
+UID:12de13a9-703b-4591-9615-ec034180db96@12de.org
+URL:https://www.meetup.com/aindustriosa/events/267725590/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/256143812/
+DURATION:PT2H
+DTSTART:20181116T180000Z
+SUMMARY:Galicia\, el espacio y por qué seguir explorando
+UID:13d49ab4-2775-4fb9-a31e-c113bdc66139@13d4.org
+URL:https://www.meetup.com/aindustriosa/events/256143812/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/263151789/
+DURATION:PT2H
+DTSTART:20190720T100000Z
+SUMMARY:50 aniversario da chegada do home á Lúa
+UID:65c9a6af-d11e-4823-bc3a-8bc4871c306c@65c9.org
+URL:https://www.meetup.com/aindustriosa/events/263151789/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/293263665/
+DURATION:PT2H
+DTSTART:20230506T083000Z
+SUMMARY:Python\, kata e almorzo / Python\, kata y desayuno - 10ª Edición
+UID:564bf6f0-66d3-4a77-8019-01881b4f700f@564b.org
+URL:https://www.meetup.com/aindustriosa/events/293263665/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/256805202/
+DURATION:PT2H
+DTSTART:20181221T183000Z
+SUMMARY:Sesión Touch&Play [se permite tocar] con Juanma LoDo
+UID:c20fcfbe-ddce-49a8-861f-30feb8939f25@c20f.org
+URL:https://www.meetup.com/aindustriosa/events/256805202/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/304115173/
+DURATION:PT2H
+DTSTART:20241109T090000Z
+SUMMARY:Día Global do Code Retreat
+UID:3e2098ee-9f95-4a5d-80ba-8b49644b89ab@3e20.org
+URL:https://www.meetup.com/aindustriosa/events/304115173/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/265952201/
+DURATION:PT2H
+DTSTART:20191104T183000Z
+SUMMARY:Kubernetes Network security
+UID:98ed0804-aca5-4fbd-9d99-2bf30e840492@98ed.org
+URL:https://www.meetup.com/aindustriosa/events/265952201/
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:https://www.meetup.com/aindustriosa/events/247379843/
 DURATION:PT2H
 DTSTART:20180209T180000Z
 SUMMARY:Obradoiro de introducción a VIM
-UID:1943e194-2796-4bad-ad0b-75112295c921@1943.org
+UID:7773b4e5-6acc-4ced-8ce2-0d0aec054a8b@7773.org
 URL:https://www.meetup.com/aindustriosa/events/247379843/
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/294357009/
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/260702390/
 DURATION:PT2H
-DTSTART:20230626T170000Z
-SUMMARY:Robótica de competición: OPRobots\, moita\, moita proba e erro.
-UID:0035216e-99a8-471d-8357-625fe703d58d@0035.org
-URL:https://www.meetup.com/aindustriosa/events/294357009/
+DTSTART:20190511T090000Z
+SUMMARY:Taller Fotogrametría Low Cost (Parte 2): Arreglo y optimización de réplicas 3D
+UID:9bae5f70-2957-4bbe-89b6-986332329e0a@9bae.org
+URL:https://www.meetup.com/aindustriosa/events/260702390/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/242161923/
+DURATION:PT2H
+DTSTART:20170809T160000Z
+SUMMARY:A Industriosa- Obradoiro introdución Kubernetes
+UID:2840fbc3-260b-4529-b133-c2f074a31f39@2840.org
+URL:https://www.meetup.com/aindustriosa/events/242161923/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/292689426/
+DURATION:PT2H
+DTSTART:20230414T170000Z
+SUMMARY:Rural Hackers: un movemento para revitalizar a vida no rural 
+UID:416635b2-82bd-4faf-9409-3cbd3d28c807@4166.org
+URL:https://www.meetup.com/aindustriosa/events/292689426/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/285848167/
+DURATION:PT2H
+DTSTART:20220528T080000Z
+SUMMARY:II Obradoiro de soldadura SMD
+UID:2369e08f-7da8-4f3d-9ce4-3d3c1d659ebd@2369.org
+URL:https://www.meetup.com/aindustriosa/events/285848167/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/247356813/
+DURATION:PT2H
+DTSTART:20180222T173000Z
+SUMMARY:Taller de iniciación a FreeCAD (2ª Edición)
+UID:591f77e2-ea33-46fc-926e-6f5e715e5161@591f.org
+URL:https://www.meetup.com/aindustriosa/events/247356813/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/262648046/
+DURATION:PT2H
+DTSTART:20190703T170000Z
+SUMMARY:TÉCNICAS DE VIDEOMAPPING CON MADMAPPER 
+UID:eef7e8d8-a6ca-46e2-9c6f-5afd4c2f9426@eef7.org
+URL:https://www.meetup.com/aindustriosa/events/262648046/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/299750032/
+DURATION:PT2H
+DTSTART:20240323T100000Z
+SUMMARY:Obradoiro Segueliñas Rust: Instalación de toolchain e primeiros pasos
+UID:d90df4b8-ba8d-4f5a-9153-834d3328bf0f@d90d.org
+URL:https://www.meetup.com/aindustriosa/events/299750032/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/269886872/
+DURATION:PT2H
+DTSTART:20200406T140000Z
+SUMMARY:Regata Solar - Curso Electrónica e propulsión
+UID:86f6e7f4-7baf-4e33-a5d0-18eaddb6f4cd@86f6.org
+URL:https://www.meetup.com/aindustriosa/events/269886872/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/292975598/
+DURATION:PT2H
+DTSTART:20230511T173000Z
+SUMMARY:Engineering Manager: Beyond Leadership
+UID:b4d79566-f74c-46e1-96ce-a348d7d407bf@b4d7.org
+URL:https://www.meetup.com/aindustriosa/events/292975598/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/252740308/
+DURATION:PT2H
+DTSTART:20180722T083000Z
+SUMMARY:Taller Escornabot: Constrúe e lévate a casa o teu primeiro robot
+UID:89d98e71-635b-4f32-ac97-8a67947cfa46@89d9.org
+URL:https://www.meetup.com/aindustriosa/events/252740308/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/288645805/
+DURATION:PT2H
+DTSTART:20221009T090000Z
+SUMMARY:XORNADAS DE INICIACIÓN AO CULTIVO DE BANCAIS E AUTOMATIZACIÓN
+UID:670ebe5c-bfe8-47e2-b50b-dd0ed9dc9772@670e.org
+URL:https://www.meetup.com/aindustriosa/events/288645805/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/285613856/
+DURATION:PT2H
+DTSTART:20220507T080000Z
+SUMMARY:I Obradoiro de soldadura SMD
+UID:1b9200d4-a2b9-4cb5-8e59-d2d89d51c899@1b92.org
+URL:https://www.meetup.com/aindustriosa/events/285613856/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/286337012/
+DURATION:PT2H
+DTSTART:20220617T160000Z
+SUMMARY:Sensores CO2 maker para combatir a pandemia COVID-19
+UID:3d77fcec-f18a-49b3-9106-d0325becf83b@3d77.org
+URL:https://www.meetup.com/aindustriosa/events/286337012/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/268136986/
+DURATION:PT2H
+DTSTART:20200125T113000Z
+SUMMARY:Python\, kata e almorzo / Python\, kata y desayuno - 4ª Edición
+UID:e281be27-c5ae-4879-ba64-0fce133bfc2d@e281.org
+URL:https://www.meetup.com/aindustriosa/events/268136986/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/288647919/
+DURATION:PT2H
+DTSTART:20221012T083000Z
+SUMMARY:Hackathón de fabricación dixital de deseño e produción de circuítos electrónicos
+UID:362b56bd-f53d-4064-8543-b5d740b4155b@362b.org
+URL:https://www.meetup.com/aindustriosa/events/288647919/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/303529040/
+DURATION:PT2H
+DTSTART:20241001T173000Z
+SUMMARY:De WordPress a Material for MkDocs. Cómo y porqué.
+UID:2d4c63fc-3753-4aff-86af-b4feb06c2316@2d4c.org
+URL:https://www.meetup.com/aindustriosa/events/303529040/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/287303489/
+DURATION:PT2H
+DTSTART:20220812T173000Z
+SUMMARY:VI Churrascode 2022
+UID:f03631bc-8850-4441-8703-9a3314186c00@f036.org
+URL:https://www.meetup.com/aindustriosa/events/287303489/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/284885969/
+DURATION:PT2H
+DTSTART:20220408T143000Z
+SUMMARY:Obradoiro de iniciación ó deseño 3D con FreeCAD
+UID:8901efa9-2ef5-4686-8f84-ed61edb74cdb@8901.org
+URL:https://www.meetup.com/aindustriosa/events/284885969/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/256633701/
+DURATION:PT2H
+DTSTART:20181128T183000Z
+SUMMARY:Introdución a TDD en sistemas embebidos
+UID:8367531b-8904-47fe-99ee-b789e4ae0861@8367.org
+URL:https://www.meetup.com/aindustriosa/events/256633701/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/279494424/
+DURATION:PT2H
+DTSTART:20210724T100000Z
+SUMMARY:Reciclaxe de plásticos a pequeña escala con máquinas open source
+UID:cfc88074-c1c1-429e-9fe2-5397ff6860d9@cfc8.org
+URL:https://www.meetup.com/aindustriosa/events/279494424/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/299375480/
+DURATION:PT2H
+DTSTART:20240313T180000Z
+SUMMARY:Solana: unha guía para principiantes
+UID:656de8c5-7909-4a6b-922a-92d4f312049b@656d.org
+URL:https://www.meetup.com/aindustriosa/events/299375480/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/294783869/
+DURATION:PT2H
+DTSTART:20230719T163000Z
+SUMMARY:Kata mensual de Embedded Rust por Eloy Coto
+UID:91d2b0f3-b265-4ace-822a-7d120e24ee01@91d2.org
+URL:https://www.meetup.com/aindustriosa/events/294783869/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/285820041/
+DURATION:PT2H
+DTSTART:20220523T163000Z
+SUMMARY:Obradoiro de introdución a GIT
+UID:b5c7b306-3927-43ac-9b8e-d9d0dd467cc1@b5c7.org
+URL:https://www.meetup.com/aindustriosa/events/285820041/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/293869015/
+DURATION:PT2H
+DTSTART:20230603T090000Z
+SUMMARY:Python\, kata e almorzo / Python\, kata y desayuno - 11ª Edición
+UID:2b50753d-c468-40e1-b919-543bf5577662@2b50.org
+URL:https://www.meetup.com/aindustriosa/events/293869015/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/248272356/
+DURATION:PT2H
+DTSTART:20180314T183000Z
+SUMMARY:#19 - Introducción ó deseño naval
+UID:215041ef-c4d6-431c-985a-fece763e17b1@2150.org
+URL:https://www.meetup.com/aindustriosa/events/248272356/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/244862469/
+DURATION:PT2H
+DTSTART:20171116T183000Z
+SUMMARY:#14- Software defined Radio
+UID:a27ebc9d-8c12-4bac-9e6f-54917081728a@a27e.org
+URL:https://www.meetup.com/aindustriosa/events/244862469/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/286850184/
+DURATION:PT2H
+DTSTART:20220709T083000Z
+SUMMARY:101 Autoconsumo solar OffGrid y OnGrid desde 0
+UID:834a488a-cb2e-4ba9-a488-9e62ed2fe4dd@834a.org
+URL:https://www.meetup.com/aindustriosa/events/286850184/
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:https://www.meetup.com/aindustriosa/events/300305658/
 DURATION:PT2H
 DTSTART:20240413T090000Z
 SUMMARY:Obradoiro Segueliñas Rust 
-UID:77577abd-05bf-49f7-875b-a6d80fd4e0e8@7757.org
+UID:0941a3fd-1b77-4da4-a21d-64d660a7aacb@0941.org
 URL:https://www.meetup.com/aindustriosa/events/300305658/
 END:VEVENT
 BEGIN:VEVENT
@@ -350,663 +334,455 @@ DESCRIPTION:https://www.meetup.com/aindustriosa/events/280918747/
 DURATION:PT2H
 DTSTART:20211002T083000Z
 SUMMARY:Obradoiro de programación con Micro:bit para nenas e nenos
-UID:5eabc151-8d65-4824-959b-1b9891ef209d@5eab.org
+UID:d8471110-3327-4f67-9b9d-01fc2f2f84ce@d847.org
 URL:https://www.meetup.com/aindustriosa/events/280918747/
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/304115173/
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/284056495/
 DURATION:PT2H
-DTSTART:20241109T090000Z
-SUMMARY:Día Global do Code Retreat
-UID:8a8ff37f-b83f-4f90-a212-47ddbc1052aa@8a8f.org
-URL:https://www.meetup.com/aindustriosa/events/304115173/
+DTSTART:20220219T103000Z
+SUMMARY:Kata de Micropython e microcontroladores - 1ª Edición
+UID:8778601e-1314-4de0-a8a6-d797bf681498@8778.org
+URL:https://www.meetup.com/aindustriosa/events/284056495/
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/257599226/
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/280554370/
 DURATION:PT2H
-DTSTART:20190103T173000Z
-SUMMARY:Medida de la temperatura de la estratosfera detectando radiación cósmica natural
-UID:99d66206-1a22-487e-96cb-1c625833014a@99d6.org
-URL:https://www.meetup.com/aindustriosa/events/257599226/
+DTSTART:20210911T090000Z
+SUMMARY:Xornada de portas abertas (2)
+UID:529de1d2-6d9f-4c02-9c84-49efe5afb120@529d.org
+URL:https://www.meetup.com/aindustriosa/events/280554370/
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/256143138/
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/247653018/
 DURATION:PT2H
-DTSTART:20181204T180000Z
-SUMMARY:Xtonebox\, fabricando alta tecnoloxía dos anos 50 para os teus oídos.
-UID:aade6f98-b006-4098-b0a2-a30612260f1a@aade.org
-URL:https://www.meetup.com/aindustriosa/events/256143138/
+DTSTART:20180216T170000Z
+SUMMARY:Bulebule: making off de un robot 'micromouse'
+UID:2006e337-8c2c-468f-ad74-0633ffa45e01@2006.org
+URL:https://www.meetup.com/aindustriosa/events/247653018/
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/300024608/
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/258786579/
 DURATION:PT2H
-DTSTART:20240508T170000Z
-SUMMARY:Podo ser ti: Xogando con síntesis de voz usando IA
-UID:2c0d0c5d-e0b2-4edd-8fe0-71229796f094@2c0d.org
-URL:https://www.meetup.com/aindustriosa/events/300024608/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/258328084/
-DURATION:PT2H
-DTSTART:20190208T180000Z
-SUMMARY:[Obradoiro] Python para non pythonistas
-UID:793a3587-dd5f-449d-8bff-d4e1c49317ba@793a.org
-URL:https://www.meetup.com/aindustriosa/events/258328084/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/257928106/
-DURATION:PT2H
-DTSTART:20190126T090000Z
-SUMMARY:Obradoiro de mClon\, un robot open software hardware compatible con mBlock
-UID:165f1bd1-006c-4b85-937c-b7c0cb71c0fa@165f.org
-URL:https://www.meetup.com/aindustriosa/events/257928106/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/284799199/
-DURATION:PT2H
-DTSTART:20220326T103000Z
-SUMMARY:Kata de Micropython e microcontroladores - 2ª Edición
-UID:b1e94667-8f1f-4737-a7d2-feee1ae1137d@b1e9.org
-URL:https://www.meetup.com/aindustriosa/events/284799199/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/269502990/
-DURATION:PT2H
-DTSTART:20200319T160000Z
-SUMMARY:Introducción a LoRa y LoRaWAN
-UID:3454e3c7-bcef-45e0-a9ed-44fd7d7e6127@3454.org
-URL:https://www.meetup.com/aindustriosa/events/269502990/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/258701536/
-DURATION:PT2H
-DTSTART:20190214T180000Z
-SUMMARY:Taller de iniciación a FreeCAD 0.17 - Edición San Valentín
-UID:86c8dea6-6712-46f5-9d3a-29e3d6c05101@86c8.org
-URL:https://www.meetup.com/aindustriosa/events/258701536/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/268306230/
-DURATION:PT2H
-DTSTART:20200201T113000Z
-SUMMARY:Python\, kata e almorzo / Python\, kata y desayuno - 5ª Edición
-UID:381c4357-ce45-4c27-a9d0-bfb64cf5584e@381c.org
-URL:https://www.meetup.com/aindustriosa/events/268306230/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/249828979/
-DURATION:PT2H
-DTSTART:20180426T173000Z
-SUMMARY:TALLER DE INICIACIÓN AL MODELADO 3D CON BLENDER
-UID:a389f914-673e-46bd-aa41-b0179d2d9a72@a389.org
-URL:https://www.meetup.com/aindustriosa/events/249828979/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/254824933/
-DURATION:PT2H
-DTSTART:20181005T160000Z
-SUMMARY:Obradoiro de introdución a SDR
-UID:cc81a2c1-f3d0-4799-8472-138320812bed@cc81.org
-URL:https://www.meetup.com/aindustriosa/events/254824933/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/293263665/
-DURATION:PT2H
-DTSTART:20230506T083000Z
-SUMMARY:Python\, kata e almorzo / Python\, kata y desayuno - 10ª Edición
-UID:a4ff4b59-e2c3-4367-97fe-d3f22d8bd001@a4ff.org
-URL:https://www.meetup.com/aindustriosa/events/293263665/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/259072118/
-DURATION:PT2H
-DTSTART:20190304T180000Z
-SUMMARY:Deseño naval: inspiración para a IV Regata Solar
-UID:51bdbccb-ede7-47b7-b0fd-cf77e71e7759@51bd.org
-URL:https://www.meetup.com/aindustriosa/events/259072118/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/256805202/
-DURATION:PT2H
-DTSTART:20181221T183000Z
-SUMMARY:Sesión Touch&Play [se permite tocar] con Juanma LoDo
-UID:2662a024-cfda-4bc3-9d12-29d5205c55c3@2662.org
-URL:https://www.meetup.com/aindustriosa/events/256805202/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/288919385/
-DURATION:PT2H
-DTSTART:20221112T090000Z
-SUMMARY:Introdución práctica á automatización de bancais
-UID:dfedf1f0-f350-4486-99ef-c939756dbd16@dfed.org
-URL:https://www.meetup.com/aindustriosa/events/288919385/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/292976563/
-DURATION:PT2H
-DTSTART:20230424T173000Z
-SUMMARY:Iniciación a impresión 3D
-UID:26be106e-de86-41a8-a6c8-851067143145@26be.org
-URL:https://www.meetup.com/aindustriosa/events/292976563/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/292689426/
-DURATION:PT2H
-DTSTART:20230414T170000Z
-SUMMARY:Rural Hackers: un movemento para revitalizar a vida no rural 
-UID:055b3d62-b92e-428a-8c79-52e61db07019@055b.org
-URL:https://www.meetup.com/aindustriosa/events/292689426/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/310761315/
-DURATION:PT2H
-DTSTART:20250912T160000Z
-SUMMARY:Obradoiro de modelado low poly con Blender
-UID:6d2a3fed-4c2c-4c6f-b39a-91b8157ec05c@6d2a.org
-URL:https://www.meetup.com/aindustriosa/events/310761315/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/304284795/
-DURATION:PT2H
-DTSTART:20241117T090000Z
-SUMMARY:Repair Café
-UID:0128363c-4e96-4a4e-86a1-fe6ca2ab8d2d@0128.org
-URL:https://www.meetup.com/aindustriosa/events/304284795/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/267725483/
-DURATION:PT2H
-DTSTART:20200229T090000Z
-SUMMARY:Curso preparación para Exame Oficial de Radioafeccionado - Segunda sesión
-UID:b36385fa-61de-4fa4-8859-c93b6d3ec18c@b363.org
-URL:https://www.meetup.com/aindustriosa/events/267725483/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/300844978/
-DURATION:PT2H
-DTSTART:20240511T090000Z
-SUMMARY:Obradoiro Segueliñas Rust
-UID:31db5efc-4427-4c1d-9dc2-08604014ee14@31db.org
-URL:https://www.meetup.com/aindustriosa/events/300844978/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/299750032/
-DURATION:PT2H
-DTSTART:20240323T100000Z
-SUMMARY:Obradoiro Segueliñas Rust: Instalación de toolchain e primeiros pasos
-UID:6764c873-de26-45e7-97d4-75e53b223032@6764.org
-URL:https://www.meetup.com/aindustriosa/events/299750032/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/288671665/
-DURATION:PT2H
-DTSTART:20221008T090000Z
-SUMMARY:Obradoiro de Escornabot para familias
-UID:f88be32d-9c06-46dd-ace9-be586ba49144@f88b.org
-URL:https://www.meetup.com/aindustriosa/events/288671665/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/302572943/
-DURATION:PT2H
-DTSTART:20240810T090000Z
-SUMMARY:Obradoiro Segueliñas Rust
-UID:25722a0e-f3db-45a8-a8b5-13037724c349@2572.org
-URL:https://www.meetup.com/aindustriosa/events/302572943/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/285614521/
-DURATION:PT2H
-DTSTART:20220519T160000Z
-SUMMARY:OBRADOIRO DE INICIACIÓN Ó MODELADO 3D CON BLENDER - 2ª Sesión
-UID:8c962a46-1416-4ad5-ae7f-8892c8d2b6d8@8c96.org
-URL:https://www.meetup.com/aindustriosa/events/285614521/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/249598740/
-DURATION:PT2H
-DTSTART:20180503T173000Z
-SUMMARY:Industria 4.0: de la teoría a la práctica
-UID:7131fe8b-ae65-4f52-8138-b3ab1005390c@7131.org
-URL:https://www.meetup.com/aindustriosa/events/249598740/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/280939499/
-DURATION:PT2H
-DTSTART:20211009T083000Z
-SUMMARY:Hackatón de Domótica e IoT libre
-UID:59ea39e0-efcd-4ccb-9822-52717051effe@59ea.org
-URL:https://www.meetup.com/aindustriosa/events/280939499/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/251679992/
-DURATION:PT2H
-DTSTART:20180618T170000Z
-SUMMARY:Aviación experimental
-UID:59e78cb1-1486-4c33-a789-bc264926e6f0@59e7.org
-URL:https://www.meetup.com/aindustriosa/events/251679992/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/293701569/
-DURATION:PT2H
-DTSTART:20230527T073000Z
-SUMMARY:Kata mensual de Embedded Rust por Eloy Coto
-UID:c7e1b152-bb53-477a-a497-d397644a6d34@c7e1.org
-URL:https://www.meetup.com/aindustriosa/events/293701569/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/300425701/
-DURATION:PT2H
-DTSTART:20240420T080000Z
-SUMMARY:Fabricación de PCB´s con CNC
-UID:e6bb32f8-6953-4671-a89b-641b8d00d2fd@e6bb.org
-URL:https://www.meetup.com/aindustriosa/events/300425701/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/244862469/
-DURATION:PT2H
-DTSTART:20171116T183000Z
-SUMMARY:#14- Software defined Radio
-UID:09903f7e-4f95-41fc-a6e4-e612237f977e@0990.org
-URL:https://www.meetup.com/aindustriosa/events/244862469/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/269929470/
-DURATION:PT2H
-DTSTART:20200408T140000Z
-SUMMARY:Regata Solar - Radiocontrol e Telemetría
-UID:8f531532-65e1-43a2-a560-f2ca13551cf8@8f53.org
-URL:https://www.meetup.com/aindustriosa/events/269929470/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/260176444/
-DURATION:PT2H
-DTSTART:20190405T170000Z
-SUMMARY:Que fan os arqueólogos coas novas tecnoloxías? Cara a Arqueoloxía 4.0
-UID:ab7d9bb7-f734-43ca-a68f-1b8d92d833ad@ab7d.org
-URL:https://www.meetup.com/aindustriosa/events/260176444/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/251689710/
-DURATION:PT2H
-DTSTART:20180622T163000Z
-SUMMARY:Workshop de Kubernetes
-UID:95155824-0f6d-4349-8818-87b63fc2dbd7@9515.org
-URL:https://www.meetup.com/aindustriosa/events/251689710/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/288577928/
-DURATION:PT2H
-DTSTART:20220924T093000Z
-SUMMARY:Embobínate!!\, o como (no) fabricar un motor eléctrico.
-UID:b64bfd57-79f9-400e-aa51-38a89430fb09@b64b.org
-URL:https://www.meetup.com/aindustriosa/events/288577928/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/260702252/
-DURATION:PT2H
-DTSTART:20190504T090000Z
-SUMMARY:Taller Fotogrametría Low Cost (Parte 1): Obtención de réplicas 3D
-UID:e01166cf-3d83-4634-9f48-9fd643c18942@e011.org
-URL:https://www.meetup.com/aindustriosa/events/260702252/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/263151789/
-DURATION:PT2H
-DTSTART:20190720T100000Z
-SUMMARY:50 aniversario da chegada do home á Lúa
-UID:3a010250-aabd-410e-8326-ca510320e26a@3a01.org
-URL:https://www.meetup.com/aindustriosa/events/263151789/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/285820041/
-DURATION:PT2H
-DTSTART:20220523T163000Z
-SUMMARY:Obradoiro de introdución a GIT
-UID:4217b262-9ffe-4329-86e8-76c2c493acfc@4217.org
-URL:https://www.meetup.com/aindustriosa/events/285820041/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/287303489/
-DURATION:PT2H
-DTSTART:20220812T173000Z
-SUMMARY:VI Churrascode 2022
-UID:c5bd8424-f55e-4187-8f41-34ed41807b74@c5bd.org
-URL:https://www.meetup.com/aindustriosa/events/287303489/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/266587064/
-DURATION:PT2H
-DTSTART:20191128T180000Z
-SUMMARY:NERVADURA - VERTIXE SONORA
-UID:1cc738e5-851d-45c8-88a5-ef6394d4b006@1cc7.org
-URL:https://www.meetup.com/aindustriosa/events/266587064/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/301417924/
-DURATION:PT2H
-DTSTART:20240608T090000Z
-SUMMARY:Obradoiro Segueliñas Rust
-UID:79cc6f46-6bbc-41be-a9f3-68e6eff40e6a@79cc.org
-URL:https://www.meetup.com/aindustriosa/events/301417924/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/307588913/
-DURATION:PT2H
-DTSTART:20250507T170000Z
-SUMMARY:Obradoiro de iniciación ó modelado 3d con Blender
-UID:69da44ee-50c7-46b5-8535-39c5d59dc459@69da.org
-URL:https://www.meetup.com/aindustriosa/events/307588913/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/280487076/
-DURATION:PT2H
-DTSTART:20210904T090000Z
-SUMMARY:Xornada de portas abertas
-UID:95a6ab93-7b56-4427-ba03-2564b72d3dcc@95a6.org
-URL:https://www.meetup.com/aindustriosa/events/280487076/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/280900428/
-DURATION:PT2H
-DTSTART:20210925T090000Z
-SUMMARY:Xornada de portas abertas (4)
-UID:7ce47cd3-18f1-4a4a-aa61-d3c4bdd667e7@7ce4.org
-URL:https://www.meetup.com/aindustriosa/events/280900428/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/252740308/
-DURATION:PT2H
-DTSTART:20180722T083000Z
-SUMMARY:Taller Escornabot: Constrúe e lévate a casa o teu primeiro robot
-UID:7c5eb241-8479-4107-9f04-18cc465898d0@7c5e.org
-URL:https://www.meetup.com/aindustriosa/events/252740308/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/243445260/
-DURATION:PT2H
-DTSTART:20171011T173000Z
-SUMMARY:#13 - Uvigo Motorsport
-UID:27d0dfd2-612d-4a3d-94ca-a244f8646c19@27d0.org
-URL:https://www.meetup.com/aindustriosa/events/243445260/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/249734705/
-DURATION:PT2H
-DTSTART:20180511T170000Z
-SUMMARY:Obradoiro de impresión 3D 
-UID:1ac1ca0e-f776-4d84-a72f-a5adf4ebb54b@1ac1.org
-URL:https://www.meetup.com/aindustriosa/events/249734705/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/285848167/
-DURATION:PT2H
-DTSTART:20220528T080000Z
-SUMMARY:II Obradoiro de soldadura SMD
-UID:e5b5fc3d-c68b-4244-958d-ab6bf127d8e1@e5b5.org
-URL:https://www.meetup.com/aindustriosa/events/285848167/
+DTSTART:20190227T180000Z
+SUMMARY:Cómo construirte una impresora 3d XXL
+UID:b6bfa081-83dc-4631-8111-76443e4a86c1@b6bf.org
+URL:https://www.meetup.com/aindustriosa/events/258786579/
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:https://www.meetup.com/aindustriosa/events/246708364/
 DURATION:PT2H
 DTSTART:20180119T170000Z
 SUMMARY:Taller de iniciación a FreeCAD
-UID:d460332a-a589-4155-a775-8e3269f1aab0@d460.org
+UID:dfa6afbc-a61f-41c0-891e-574dee216404@dfa6.org
 URL:https://www.meetup.com/aindustriosa/events/246708364/
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/267725262/
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/259072118/
 DURATION:PT2H
-DTSTART:20200215T090000Z
-SUMMARY:Curso preparación para Exame Oficial de Radioafeccionado - Primeira sesión
-UID:6368a443-0ebe-4724-b087-8cb8a382096a@6368.org
-URL:https://www.meetup.com/aindustriosa/events/267725262/
+DTSTART:20190304T180000Z
+SUMMARY:Deseño naval: inspiración para a IV Regata Solar
+UID:d6a5d9e5-8e75-407d-9a7a-b15d5d2cfb67@d6a5.org
+URL:https://www.meetup.com/aindustriosa/events/259072118/
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/306579139/
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/256143138/
 DURATION:PT2H
-DTSTART:20250322T090000Z
-SUMMARY:Galegos na FOSDEM
-UID:a756f476-a6b7-445a-acf2-07143377c6f1@a756.org
-URL:https://www.meetup.com/aindustriosa/events/306579139/
+DTSTART:20181204T180000Z
+SUMMARY:Xtonebox\, fabricando alta tecnoloxía dos anos 50 para os teus oídos.
+UID:027a5f84-9115-46ef-8778-a65aff9bd0f0@027a.org
+URL:https://www.meetup.com/aindustriosa/events/256143138/
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/248272356/
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/249828979/
 DURATION:PT2H
-DTSTART:20180314T183000Z
-SUMMARY:#19 - Introducción ó deseño naval
-UID:0eae71fc-8ac9-4681-8e8d-20513580f30b@0eae.org
-URL:https://www.meetup.com/aindustriosa/events/248272356/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/270194183/
-DURATION:PT2H
-DTSTART:20200424T160000Z
-SUMMARY:Open Research Rocketry\, Rockets and opensource
-UID:608260e3-fccc-4691-b84a-5359159b7001@6082.org
-URL:https://www.meetup.com/aindustriosa/events/270194183/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/250610366/
-DURATION:PT2H
-DTSTART:20180529T163000Z
-SUMMARY:Obradoiro introdución a GIT
-UID:30e2d250-20de-4a7b-8841-8d9ea97e031a@30e2.org
-URL:https://www.meetup.com/aindustriosa/events/250610366/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/283279203/
-DURATION:PT2H
-DTSTART:20220122T090000Z
-SUMMARY:Sensores CO2 maker para combatir a pandemia COVID-19
-UID:98f89c11-4147-4287-ad50-5886a1c8e742@98f8.org
-URL:https://www.meetup.com/aindustriosa/events/283279203/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/256718672/
-DURATION:PT2H
-DTSTART:20181213T180000Z
-SUMMARY:E-téxtiles nos espacios maker
-UID:8c368d60-daf7-4aeb-a852-8c91bc3ee00a@8c36.org
-URL:https://www.meetup.com/aindustriosa/events/256718672/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/301004056/
-DURATION:PT2H
-DTSTART:20240525T100000Z
-SUMMARY:Diario de Desenvolvemento: A aventura submarina de José Luis González
-UID:ac63a1c5-2358-4640-9b33-5eec969ff8b5@ac63.org
-URL:https://www.meetup.com/aindustriosa/events/301004056/
+DTSTART:20180426T173000Z
+SUMMARY:TALLER DE INICIACIÓN AL MODELADO 3D CON BLENDER
+UID:574cbbc7-ddbc-40c2-bd1b-7a3721adc20b@574c.org
+URL:https://www.meetup.com/aindustriosa/events/249828979/
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:https://www.meetup.com/aindustriosa/events/282398842/
 DURATION:PT2H
 DTSTART:20211210T163000Z
 SUMMARY:2ª Edición - Obradoiro de programación con Micro:bit para nenas e nenos
-UID:c39ce734-49c0-48a4-b7d4-f121fca69943@c39c.org
+UID:49963ae2-0aeb-40d8-b3fa-a7d11488acb7@4996.org
 URL:https://www.meetup.com/aindustriosa/events/282398842/
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/247970142/
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/241015376/
 DURATION:PT2H
-DTSTART:20180316T173000Z
-SUMMARY:Taller de iniciación a Blender Game Engine
-UID:6d1414d7-8af4-40f4-98ce-461a1b46f3a4@6d14.org
-URL:https://www.meetup.com/aindustriosa/events/247970142/
+DTSTART:20170630T160000Z
+SUMMARY:A Industriosa- Workshop ESP8266
+UID:44d72727-7f9a-4b72-a903-cbde5d5271d4@44d7.org
+URL:https://www.meetup.com/aindustriosa/events/241015376/
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/269886872/
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/257599226/
 DURATION:PT2H
-DTSTART:20200406T140000Z
-SUMMARY:Regata Solar - Curso Electrónica e propulsión
-UID:73640968-6df7-42c3-b6eb-c7ffd3250213@7364.org
-URL:https://www.meetup.com/aindustriosa/events/269886872/
+DTSTART:20190103T173000Z
+SUMMARY:Medida de la temperatura de la estratosfera detectando radiación cósmica natural
+UID:63364c21-2e69-432e-aecf-f5d10aaa5725@6336.org
+URL:https://www.meetup.com/aindustriosa/events/257599226/
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/236333173/
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/257928106/
 DURATION:PT2H
-DTSTART:20170117T183000Z
-SUMMARY:Meetup #6 - Introducción ás FPGA
-UID:b55ca475-4662-4914-a529-518925c0d904@b55c.org
-URL:https://www.meetup.com/aindustriosa/events/236333173/
+DTSTART:20190126T090000Z
+SUMMARY:Obradoiro de mClon\, un robot open software hardware compatible con mBlock
+UID:7846e498-bde8-4604-a7ec-1fcef0bfe150@7846.org
+URL:https://www.meetup.com/aindustriosa/events/257928106/
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/301004125/
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/310761315/
 DURATION:PT2H
-DTSTART:20240601T080000Z
-SUMMARY:Fabricación Dixital: Corte controlado por ordenador
-UID:3ffe4ce5-bd7e-4230-a770-a76ca1ae85bc@3ffe.org
-URL:https://www.meetup.com/aindustriosa/events/301004125/
+DTSTART:20250912T160000Z
+SUMMARY:Obradoiro de modelado low poly con Blender
+UID:24a60df6-d319-4cfb-9586-fa5f1c5161e1@24a6.org
+URL:https://www.meetup.com/aindustriosa/events/310761315/
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/239995965/
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/267106420/
 DURATION:PT2H
-DTSTART:20170612T173000Z
-SUMMARY:#12 - Introducción a Apache Kafka
-UID:7fddcbff-db4d-454b-a6a2-c2c793739adf@7fdd.org
-URL:https://www.meetup.com/aindustriosa/events/239995965/
+DTSTART:20191214T113000Z
+SUMMARY:Python\, kata e almorzo / Python\, kata y desayuno - 2º Edición
+UID:1e2fdbf6-1389-414f-bd59-c17947a5f905@1e2f.org
+URL:https://www.meetup.com/aindustriosa/events/267106420/
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/247356813/
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/288577928/
 DURATION:PT2H
-DTSTART:20180222T173000Z
-SUMMARY:Taller de iniciación a FreeCAD (2ª Edición)
-UID:21447256-5448-4e18-b777-0d04364bbfcd@2144.org
-URL:https://www.meetup.com/aindustriosa/events/247356813/
+DTSTART:20220924T093000Z
+SUMMARY:Embobínate!!\, o como (no) fabricar un motor eléctrico.
+UID:b06543a3-260e-47ea-b4bf-855a6a222697@b065.org
+URL:https://www.meetup.com/aindustriosa/events/288577928/
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/288076970/
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/247969543/
 DURATION:PT2H
-DTSTART:20220910T083000Z
-SUMMARY:III Hackaton de Domótica e IoT libre
-UID:6c73c5e1-bd61-4d27-b919-1c2045a87353@6c73.org
-URL:https://www.meetup.com/aindustriosa/events/288076970/
+DTSTART:20180301T180000Z
+SUMMARY:#17 - Monitorización de una regata de barcos radiocontrol
+UID:27be797b-dbb7-4f0a-beea-5f1c1048cf9b@27be.org
+URL:https://www.meetup.com/aindustriosa/events/247969543/
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/292477574/
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/283279203/
 DURATION:PT2H
-DTSTART:20230401T090000Z
-SUMMARY:Python\, kata e almorzo / Python\, kata y desayuno - 9ª Edición
-UID:80dc68c5-cbf7-40b6-b76d-d2d8d3b94971@80dc.org
-URL:https://www.meetup.com/aindustriosa/events/292477574/
+DTSTART:20220122T090000Z
+SUMMARY:Sensores CO2 maker para combatir a pandemia COVID-19
+UID:ac2c6045-9ed3-49bb-8995-2eb01898c8f6@ac2c.org
+URL:https://www.meetup.com/aindustriosa/events/283279203/
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/285613856/
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/258701536/
 DURATION:PT2H
-DTSTART:20220507T080000Z
-SUMMARY:I Obradoiro de soldadura SMD
-UID:832fc775-4b11-409a-9409-c211db9086da@832f.org
-URL:https://www.meetup.com/aindustriosa/events/285613856/
+DTSTART:20190214T180000Z
+SUMMARY:Taller de iniciación a FreeCAD 0.17 - Edición San Valentín
+UID:ecfe762c-3180-4fee-bef7-b139ba2e6c69@ecfe.org
+URL:https://www.meetup.com/aindustriosa/events/258701536/
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/279494424/
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/256718672/
 DURATION:PT2H
-DTSTART:20210724T100000Z
-SUMMARY:Reciclaxe de plásticos a pequeña escala con máquinas open source
-UID:a1d12a52-da94-4a17-9a5d-49ac9c921393@a1d1.org
-URL:https://www.meetup.com/aindustriosa/events/279494424/
+DTSTART:20181213T180000Z
+SUMMARY:E-téxtiles nos espacios maker
+UID:42cadd41-abc6-4bcf-8a6b-ba4c85436610@42ca.org
+URL:https://www.meetup.com/aindustriosa/events/256718672/
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/296854461/
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/237549696/
 DURATION:PT2H
-DTSTART:20231028T093000Z
-SUMMARY:Introducción a Mesa. Caso especifico dos dispositivos Raspberry Pi por Igalia
-UID:d78f0cf7-7428-45eb-baee-dca5ffed092e@d78f.org
-URL:https://www.meetup.com/aindustriosa/events/296854461/
+DTSTART:20170314T183000Z
+SUMMARY:#8 - Introduccion MQTT
+UID:69bdd5f1-ad41-41e0-8630-e54905365f6b@69bd.org
+URL:https://www.meetup.com/aindustriosa/events/237549696/
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/294126778/
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/301004056/
 DURATION:PT2H
-DTSTART:20230624T093000Z
-SUMMARY:Tecnoloxía Aplicada á Investigación en Ocupación\, Igualdade e Saúde.
-UID:0b0a0262-89a4-464d-aef4-fa09f911c630@0b0a.org
-URL:https://www.meetup.com/aindustriosa/events/294126778/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/291411428/
-DURATION:PT2H
-DTSTART:20230225T083000Z
-SUMMARY:Kata mensual de Embedded Rust por Eloy Coto
-UID:80792db8-3fcd-409c-abec-0cf56ce6a5be@8079.org
-URL:https://www.meetup.com/aindustriosa/events/291411428/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/286850184/
-DURATION:PT2H
-DTSTART:20220709T083000Z
-SUMMARY:101 Autoconsumo solar OffGrid y OnGrid desde 0
-UID:d64b6467-03bd-42f6-b4ed-609e34847ee9@d64b.org
-URL:https://www.meetup.com/aindustriosa/events/286850184/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/269813852/
-DURATION:PT2H
-DTSTART:20200418T093000Z
-SUMMARY:[Virtual meetup] Python\, kata e almorzo / Python\, kata y desayuno - 7ª Edición
-UID:4a127a4d-859b-4d3e-bf12-d9c667e8ac6a@4a12.org
-URL:https://www.meetup.com/aindustriosa/events/269813852/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/265952201/
-DURATION:PT2H
-DTSTART:20191104T183000Z
-SUMMARY:Kubernetes Network security
-UID:dee64045-52cb-4137-b381-ff2a1ce2f88e@dee6.org
-URL:https://www.meetup.com/aindustriosa/events/265952201/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/268136986/
-DURATION:PT2H
-DTSTART:20200125T113000Z
-SUMMARY:Python\, kata e almorzo / Python\, kata y desayuno - 4ª Edición
-UID:91bd0f9d-41a5-4707-96b2-565bd832924d@91bd.org
-URL:https://www.meetup.com/aindustriosa/events/268136986/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/284885969/
-DURATION:PT2H
-DTSTART:20220408T143000Z
-SUMMARY:Obradoiro de iniciación ó deseño 3D con FreeCAD
-UID:e07b81da-70ea-4c3f-aaed-ea840dd71ebd@e07b.org
-URL:https://www.meetup.com/aindustriosa/events/284885969/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/285614480/
-DURATION:PT2H
-DTSTART:20220511T170000Z
-SUMMARY:OBRADOIRO DE INICIACIÓN Ó MODELADO 3D CON BLENDER - 1ª Sesión
-UID:83c1fe3b-f976-440a-8aa0-ad3bf685227d@83c1.org
-URL:https://www.meetup.com/aindustriosa/events/285614480/
+DTSTART:20240525T100000Z
+SUMMARY:Diario de Desenvolvemento: A aventura submarina de José Luis González
+UID:325e71b3-114e-4601-93a4-9c978fa21f17@325e.org
+URL:https://www.meetup.com/aindustriosa/events/301004056/
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:https://www.meetup.com/aindustriosa/events/268473014/
 DURATION:PT2H
 DTSTART:20200208T113000Z
 SUMMARY:Python\, kata e almorzo / Python\, kata y desayuno - 6ª Edición
-UID:d89927be-6ca0-4f3e-9bf6-4a9770613652@d899.org
+UID:00fea5e8-8bcb-427f-bf8c-f18bc8a2a5db@00fe.org
 URL:https://www.meetup.com/aindustriosa/events/268473014/
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/303620470/
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/268317895/
 DURATION:PT2H
-DTSTART:20240926T173000Z
-SUMMARY:Acto de apertura PyConEs 2024 Vigo
-UID:85fe0361-64b1-4855-b700-0904cd92b015@85fe.org
-URL:https://www.meetup.com/aindustriosa/events/303620470/
+DTSTART:20200212T180000Z
+SUMMARY:Introdución ás comunicacións 5G
+UID:7c46e044-dcbb-496b-b2da-1a6d6e057a9a@7c46.org
+URL:https://www.meetup.com/aindustriosa/events/268317895/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/236333173/
+DURATION:PT2H
+DTSTART:20170117T183000Z
+SUMMARY:Meetup #6 - Introducción ás FPGA
+UID:55d62b81-c046-40f7-9cee-ec9d05662261@55d6.org
+URL:https://www.meetup.com/aindustriosa/events/236333173/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/276480762/
+DURATION:PT2H
+DTSTART:20210227T160000Z
+SUMMARY:Ultracasa 3000\, o cómo domotizar tu casa con Home Assistant.
+UID:64d523cd-2885-475c-aba0-5b5fa34aadb9@64d5.org
+URL:https://www.meetup.com/aindustriosa/events/276480762/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/272210422/
+DURATION:PT2H
+DTSTART:20200801T093000Z
+SUMMARY:Hackeando mi robot aspirador
+UID:3aeec67a-1b5f-4d48-bdcc-ce729928c5e7@3aee.org
+URL:https://www.meetup.com/aindustriosa/events/272210422/
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:https://www.meetup.com/aindustriosa/events/310761340/
 DURATION:PT2H
 DTSTART:20250913T080000Z
 SUMMARY:Obradoiro de síntese modular con MiniMo
-UID:7d5a5cb5-5166-4669-8ae2-3147c17e777d@7d5a.org
+UID:43da3c91-1060-486e-b2ab-dece3cb1ffa5@43da.org
 URL:https://www.meetup.com/aindustriosa/events/310761340/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/301004125/
+DURATION:PT2H
+DTSTART:20240601T080000Z
+SUMMARY:Fabricación Dixital: Corte controlado por ordenador
+UID:185af6c5-27b2-4921-a8d1-42cce6a82f56@185a.org
+URL:https://www.meetup.com/aindustriosa/events/301004125/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/243445260/
+DURATION:PT2H
+DTSTART:20171011T173000Z
+SUMMARY:#13 - Uvigo Motorsport
+UID:886bc06d-2250-4f92-8da7-cb665715d6a7@886b.org
+URL:https://www.meetup.com/aindustriosa/events/243445260/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/294439804/
+DURATION:PT2H
+DTSTART:20230701T150000Z
+SUMMARY:Repair Café
+UID:5612fcee-a2fd-4ea5-a371-81326e7309a6@5612.org
+URL:https://www.meetup.com/aindustriosa/events/294439804/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/240444570/
+DURATION:PT2H
+DTSTART:20170609T160000Z
+SUMMARY:A Industriosa- Workshop ESP8266
+UID:db2d896a-43d3-4958-8542-60baf936fba7@db2d.org
+URL:https://www.meetup.com/aindustriosa/events/240444570/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/288671665/
+DURATION:PT2H
+DTSTART:20221008T090000Z
+SUMMARY:Obradoiro de Escornabot para familias
+UID:fa66576c-02de-4f25-9529-7180199cada3@fa66.org
+URL:https://www.meetup.com/aindustriosa/events/288671665/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/284799199/
+DURATION:PT2H
+DTSTART:20220326T103000Z
+SUMMARY:Kata de Micropython e microcontroladores - 2ª Edición
+UID:d87be1d3-0223-4a64-84b5-ebd2a4a51b11@d87b.org
+URL:https://www.meetup.com/aindustriosa/events/284799199/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/280900428/
+DURATION:PT2H
+DTSTART:20210925T090000Z
+SUMMARY:Xornada de portas abertas (4)
+UID:5b31c179-d585-40a9-9298-c0b63b59f8aa@5b31.org
+URL:https://www.meetup.com/aindustriosa/events/280900428/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/267903080/
+DURATION:PT2H
+DTSTART:20200118T113000Z
+SUMMARY:Python\, kata e almorzo / Python\, kata y desayuno - 3ª Edición
+UID:7f7b8395-bdb6-4849-9ab5-3e83ac3586b8@7f7b.org
+URL:https://www.meetup.com/aindustriosa/events/267903080/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/249598740/
+DURATION:PT2H
+DTSTART:20180503T173000Z
+SUMMARY:Industria 4.0: de la teoría a la práctica
+UID:ccebe9bf-c4f5-42cf-9d3a-2c2ff74f8d46@cceb.org
+URL:https://www.meetup.com/aindustriosa/events/249598740/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/291871718/
+DURATION:PT2H
+DTSTART:20230304T100000Z
+SUMMARY:Python\, kata e almorzo / Python\, kata y desayuno - 8ª Edición
+UID:53020432-12fa-47b6-9e2e-9a08d11e71d6@5302.org
+URL:https://www.meetup.com/aindustriosa/events/291871718/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/269502990/
+DURATION:PT2H
+DTSTART:20200319T160000Z
+SUMMARY:Introducción a LoRa y LoRaWAN
+UID:737fdca9-7833-4de0-ad0d-7c7db51c7ddf@737f.org
+URL:https://www.meetup.com/aindustriosa/events/269502990/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/249734705/
+DURATION:PT2H
+DTSTART:20180511T170000Z
+SUMMARY:Obradoiro de impresión 3D 
+UID:b67c022a-51b0-4184-be88-8a750d786ccd@b67c.org
+URL:https://www.meetup.com/aindustriosa/events/249734705/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/267725483/
+DURATION:PT2H
+DTSTART:20200229T090000Z
+SUMMARY:Curso preparación para Exame Oficial de Radioafeccionado - Segunda sesión
+UID:62a98f41-c2d9-4a41-9f3f-6acb54a70547@62a9.org
+URL:https://www.meetup.com/aindustriosa/events/267725483/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/301906740/
+DURATION:PT2H
+DTSTART:20240706T093000Z
+SUMMARY:Aventura Plástica
+UID:c6384745-15eb-46d4-8797-886dd3e19e64@c638.org
+URL:https://www.meetup.com/aindustriosa/events/301906740/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/301417924/
+DURATION:PT2H
+DTSTART:20240608T090000Z
+SUMMARY:Obradoiro Segueliñas Rust
+UID:24d84d90-692d-4da2-8854-0eeb6454eb9a@24d8.org
+URL:https://www.meetup.com/aindustriosa/events/301417924/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/286490307/
+DURATION:PT2H
+DTSTART:20220702T083000Z
+SUMMARY:II Hackaton de Domótica e IoT libre
+UID:ab45ef94-99e8-4fcc-977d-773297d15698@ab45.org
+URL:https://www.meetup.com/aindustriosa/events/286490307/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/284828910/
+DURATION:PT2H
+DTSTART:20220330T173000Z
+SUMMARY:CES UVigo: Fabricación de barcos solares tripulados para competición
+UID:e0c15aa6-a8c0-48ab-9d5a-e2fd2003d654@e0c1.org
+URL:https://www.meetup.com/aindustriosa/events/284828910/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/270068496/
+DURATION:PT2H
+DTSTART:20200425T140000Z
+SUMMARY:Crea o teu propio videoxogo con Scratch
+UID:ea27e437-aadc-47a6-aa88-17fc32bf24df@ea27.org
+URL:https://www.meetup.com/aindustriosa/events/270068496/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/270194183/
+DURATION:PT2H
+DTSTART:20200424T160000Z
+SUMMARY:Open Research Rocketry\, Rockets and opensource
+UID:96c3711d-32a8-4258-84f3-5118cee0c713@96c3.org
+URL:https://www.meetup.com/aindustriosa/events/270194183/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/245448501/
+DURATION:PT2H
+DTSTART:20171214T183000Z
+SUMMARY:#15- Introducción a Blockchain
+UID:602941db-7616-4bcc-9266-1b1085405b81@6029.org
+URL:https://www.meetup.com/aindustriosa/events/245448501/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/268306230/
+DURATION:PT2H
+DTSTART:20200201T113000Z
+SUMMARY:Python\, kata e almorzo / Python\, kata y desayuno - 5ª Edición
+UID:c153a8f3-3392-4b5d-b013-3b1cf1209325@c153.org
+URL:https://www.meetup.com/aindustriosa/events/268306230/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/300024608/
+DURATION:PT2H
+DTSTART:20240508T170000Z
+SUMMARY:Podo ser ti: Xogando con síntesis de voz usando IA
+UID:938fe2fb-783e-49d5-bb85-918be76216ea@938f.org
+URL:https://www.meetup.com/aindustriosa/events/300024608/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/289370601/
+DURATION:PT2H
+DTSTART:20221029T090000Z
+SUMMARY:I Xornada de introdución á programación de microcontroladores PIC
+UID:d465109d-f447-4e50-94bf-b18861ffbc8d@d465.org
+URL:https://www.meetup.com/aindustriosa/events/289370601/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/291411428/
+DURATION:PT2H
+DTSTART:20230225T083000Z
+SUMMARY:Kata mensual de Embedded Rust por Eloy Coto
+UID:19d13b18-3151-4229-a6fb-f1446d8064a8@19d1.org
+URL:https://www.meetup.com/aindustriosa/events/291411428/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/307599233/
+DURATION:PT2H
+DTSTART:20250604T170000Z
+SUMMARY:Obradoiro de iniciación ó modelado 3d con Blender
+UID:b7aa4bb9-7b3b-41d9-8959-1c2758764f81@b7aa.org
+URL:https://www.meetup.com/aindustriosa/events/307599233/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/282340940/
+DURATION:PT2H
+DTSTART:20211218T090000Z
+SUMMARY:Obradoiro de iniciación á soldadura electrónica
+UID:bdded074-3283-4388-bc44-31be4cd4d976@bdde.org
+URL:https://www.meetup.com/aindustriosa/events/282340940/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/299375511/
+DURATION:PT2H
+DTSTART:20240416T170000Z
+SUMMARY:Desvelando os secretos da rede de Kubernetes:
+UID:92bb7e3e-7156-44c8-bc84-c2d9335a9376@92bb.org
+URL:https://www.meetup.com/aindustriosa/events/299375511/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/249702112/
+DURATION:PT2H
+DTSTART:20180421T083000Z
+SUMMARY:Taller Escornabot: Constrúe e lévate a casa o teu primeiro robot
+UID:30614472-37ad-48af-b541-437932ccf2fa@3061.org
+URL:https://www.meetup.com/aindustriosa/events/249702112/
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:https://www.meetup.com/aindustriosa/events/258080435/
 DURATION:PT2H
 DTSTART:20190123T180000Z
 SUMMARY:Un repaso a las competiciones de robots siguelíneas
-UID:1da573d7-75ce-4df0-b63f-0c37649bfd8a@1da5.org
+UID:9f940008-c037-48ca-8d4f-d8956cbd0964@9f94.org
 URL:https://www.meetup.com/aindustriosa/events/258080435/
 END:VEVENT
 BEGIN:VEVENT
@@ -1014,231 +790,455 @@ DESCRIPTION:https://www.meetup.com/aindustriosa/events/282486948/
 DURATION:PT2H
 DTSTART:20211211T100000Z
 SUMMARY:Introdución a LoRa\, redes LoRaWAN e servizos
-UID:c839e58e-4885-4ab1-933a-b7f007a1ac78@c839.org
+UID:8e6ac444-2055-4a70-8dee-1659bf7e5a0e@8e6a.org
 URL:https://www.meetup.com/aindustriosa/events/282486948/
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/303529040/
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/285614480/
 DURATION:PT2H
-DTSTART:20241001T173000Z
-SUMMARY:De WordPress a Material for MkDocs. Cómo y porqué.
-UID:b0e4fb65-efab-4de3-9ff9-9cb45eda796d@b0e4.org
-URL:https://www.meetup.com/aindustriosa/events/303529040/
+DTSTART:20220511T170000Z
+SUMMARY:OBRADOIRO DE INICIACIÓN Ó MODELADO 3D CON BLENDER - 1ª Sesión
+UID:a94f45d8-5879-4718-8f12-20f4ad55303d@a94f.org
+URL:https://www.meetup.com/aindustriosa/events/285614480/
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/288647919/
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/300844978/
 DURATION:PT2H
-DTSTART:20221012T083000Z
-SUMMARY:Hackathón de fabricación dixital de deseño e produción de circuítos electrónicos
-UID:68636723-cfb2-42ef-aa09-86308b69b151@6863.org
-URL:https://www.meetup.com/aindustriosa/events/288647919/
+DTSTART:20240511T090000Z
+SUMMARY:Obradoiro Segueliñas Rust
+UID:7eb58022-3a07-42c7-a02c-eccf68c26108@7eb5.org
+URL:https://www.meetup.com/aindustriosa/events/300844978/
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/280554370/
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/288919385/
 DURATION:PT2H
-DTSTART:20210911T090000Z
-SUMMARY:Xornada de portas abertas (2)
-UID:cbe569a8-f19f-4725-b2a2-6204cbf3c57f@cbe5.org
-URL:https://www.meetup.com/aindustriosa/events/280554370/
+DTSTART:20221112T090000Z
+SUMMARY:Introdución práctica á automatización de bancais
+UID:882a33d7-7368-49a0-8ad7-c79d667e2156@882a.org
+URL:https://www.meetup.com/aindustriosa/events/288919385/
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/268317895/
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/307589756/
 DURATION:PT2H
-DTSTART:20200212T180000Z
-SUMMARY:Introdución ás comunicacións 5G
-UID:e963eb12-4447-41af-9713-faa83b2baa9b@e963.org
-URL:https://www.meetup.com/aindustriosa/events/268317895/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/303264558/
-DURATION:PT2H
-DTSTART:20240912T170000Z
-SUMMARY:Clasificación y extracción de información con Function Calling de Gemini
-UID:af8d6f74-341b-464c-8ef3-1d668faf132f@af8d.org
-URL:https://www.meetup.com/aindustriosa/events/303264558/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/299082708/
-DURATION:PT2H
-DTSTART:20240217T100000Z
-SUMMARY:Obradoiro Segueliñas Rust: Sesión de introdución
-UID:8193888c-64ea-4fe6-8fa5-c4b66162a807@8193.org
-URL:https://www.meetup.com/aindustriosa/events/299082708/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/267903080/
-DURATION:PT2H
-DTSTART:20200118T113000Z
-SUMMARY:Python\, kata e almorzo / Python\, kata y desayuno - 3ª Edición
-UID:664b1594-ba16-4eec-9e57-af98d3ac3ecc@664b.org
-URL:https://www.meetup.com/aindustriosa/events/267903080/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/299375480/
-DURATION:PT2H
-DTSTART:20240313T180000Z
-SUMMARY:Solana: unha guía para principiantes
-UID:290ebcdf-60e1-4069-aca4-627859f342e6@290e.org
-URL:https://www.meetup.com/aindustriosa/events/299375480/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/307599233/
-DURATION:PT2H
-DTSTART:20250604T170000Z
+DTSTART:20250521T170000Z
 SUMMARY:Obradoiro de iniciación ó modelado 3d con Blender
-UID:05ade2d4-9abd-436d-a47b-1288028fb3f2@05ad.org
-URL:https://www.meetup.com/aindustriosa/events/307599233/
+UID:6e068f47-da5b-4c21-82e9-873913fa9a13@6e06.org
+URL:https://www.meetup.com/aindustriosa/events/307589756/
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/236895940/
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/267725262/
 DURATION:PT2H
-DTSTART:20170215T183000Z
-SUMMARY:#7- Introdución a OpenCV (Visión Artificial)
-UID:4587c2c5-7576-4154-9c39-e7fafb3d0f06@4587.org
-URL:https://www.meetup.com/aindustriosa/events/236895940/
+DTSTART:20200215T090000Z
+SUMMARY:Curso preparación para Exame Oficial de Radioafeccionado - Primeira sesión
+UID:e3454a5f-4cec-4cbd-a58e-8f630641a290@e345.org
+URL:https://www.meetup.com/aindustriosa/events/267725262/
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/293869015/
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/269929470/
 DURATION:PT2H
-DTSTART:20230603T090000Z
-SUMMARY:Python\, kata e almorzo / Python\, kata y desayuno - 11ª Edición
-UID:2dfa1f7e-aa7d-494c-8d2f-c3d5ad859437@2dfa.org
-URL:https://www.meetup.com/aindustriosa/events/293869015/
+DTSTART:20200408T140000Z
+SUMMARY:Regata Solar - Radiocontrol e Telemetría
+UID:42b44e5a-7eb3-4155-a6ab-653a9e41d72f@42b4.org
+URL:https://www.meetup.com/aindustriosa/events/269929470/
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/293490731/
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/304284795/
 DURATION:PT2H
-DTSTART:20230520T090000Z
-SUMMARY:Obradoiro de iniciación a KiCad. Deseña e fabrica os teus PCB´s.
-UID:a2783185-16c5-469c-bae8-1a1e9a9e46a6@a278.org
-URL:https://www.meetup.com/aindustriosa/events/293490731/
+DTSTART:20241117T090000Z
+SUMMARY:Repair Café
+UID:b007a18c-4020-421d-ad74-657c6c1795f9@b007.org
+URL:https://www.meetup.com/aindustriosa/events/304284795/
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/311091910/
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/292700602/
 DURATION:PT2H
-DTSTART:20250927T093000Z
-SUMMARY:Presentación de proxectos do Fab Academy 2025 en A Industriosa
-UID:e14da7ad-0036-4bc6-bc91-599884e7b689@e14d.org
-URL:https://www.meetup.com/aindustriosa/events/311091910/
+DTSTART:20230415T073000Z
+SUMMARY:Kata mensual de Embedded Rust por Eloy Coto
+UID:d7dda930-3236-4174-bb69-8b17fb59e837@d7dd.org
+URL:https://www.meetup.com/aindustriosa/events/292700602/
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/262648046/
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/260702252/
 DURATION:PT2H
-DTSTART:20190703T170000Z
-SUMMARY:TÉCNICAS DE VIDEOMAPPING CON MADMAPPER 
-UID:7ff39cc8-799c-4fc2-b94d-a0181399b730@7ff3.org
-URL:https://www.meetup.com/aindustriosa/events/262648046/
+DTSTART:20190504T090000Z
+SUMMARY:Taller Fotogrametría Low Cost (Parte 1): Obtención de réplicas 3D
+UID:83277350-a2df-434f-a495-a34d7ff9af6a@8327.org
+URL:https://www.meetup.com/aindustriosa/events/260702252/
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/270068496/
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/239995965/
 DURATION:PT2H
-DTSTART:20200425T140000Z
-SUMMARY:Crea o teu propio videoxogo con Scratch
-UID:5e27789b-1453-48b0-a13d-6268045dada5@5e27.org
-URL:https://www.meetup.com/aindustriosa/events/270068496/
+DTSTART:20170612T173000Z
+SUMMARY:#12 - Introducción a Apache Kafka
+UID:e79ae99c-f2d8-433c-80ad-de7169a3d9f1@e79a.org
+URL:https://www.meetup.com/aindustriosa/events/239995965/
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/237932782/
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/294126778/
 DURATION:PT2H
-DTSTART:20170405T173000Z
-SUMMARY:#9 - Introdución á tecnoloxía LiDAR
-UID:0e6e3601-0a66-4314-9e17-6162aeaa6ae8@0e6e.org
-URL:https://www.meetup.com/aindustriosa/events/237932782/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/267725590/
-DURATION:PT2H
-DTSTART:20200307T090000Z
-SUMMARY:Curso preparación para Exame Oficial de Radioafeccionado - Terceira sesión
-UID:5d283023-8eea-4467-ba40-bb36a8f970de@5d28.org
-URL:https://www.meetup.com/aindustriosa/events/267725590/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/256633701/
-DURATION:PT2H
-DTSTART:20181128T183000Z
-SUMMARY:Introdución a TDD en sistemas embebidos
-UID:5694973f-bdcc-449a-846c-751f1334701c@5694.org
-URL:https://www.meetup.com/aindustriosa/events/256633701/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/267106420/
-DURATION:PT2H
-DTSTART:20191214T113000Z
-SUMMARY:Python\, kata e almorzo / Python\, kata y desayuno - 2º Edición
-UID:0372d15b-dd25-40d9-9eae-46e6a1ad5d04@0372.org
-URL:https://www.meetup.com/aindustriosa/events/267106420/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/248126197/
-DURATION:PT2H
-DTSTART:20180323T173000Z
-SUMMARY:Obradoiro de Golang
-UID:139edf60-f88e-465b-9787-b2f4fb3409a7@139e.org
-URL:https://www.meetup.com/aindustriosa/events/248126197/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/286490307/
-DURATION:PT2H
-DTSTART:20220702T083000Z
-SUMMARY:II Hackaton de Domótica e IoT libre
-UID:11c6c2dd-33d1-4350-a6b6-1b81eca9b78f@11c6.org
-URL:https://www.meetup.com/aindustriosa/events/286490307/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/242161923/
-DURATION:PT2H
-DTSTART:20170809T160000Z
-SUMMARY:A Industriosa- Obradoiro introdución Kubernetes
-UID:bf3b5df0-92c7-4a4e-9d0c-84ef5707d219@bf3b.org
-URL:https://www.meetup.com/aindustriosa/events/242161923/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/280787473/
-DURATION:PT2H
-DTSTART:20210918T090000Z
-SUMMARY:Xornada de portas abertas (3)
-UID:3682210a-2017-4ab5-97e2-f917d704615b@3682.org
-URL:https://www.meetup.com/aindustriosa/events/280787473/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/289370601/
-DURATION:PT2H
-DTSTART:20221029T090000Z
-SUMMARY:I Xornada de introdución á programación de microcontroladores PIC
-UID:ea6fe061-4109-41c8-a1a6-9205e86b391e@ea6f.org
-URL:https://www.meetup.com/aindustriosa/events/289370601/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/284828910/
-DURATION:PT2H
-DTSTART:20220330T173000Z
-SUMMARY:CES UVigo: Fabricación de barcos solares tripulados para competición
-UID:d2a7ac8e-0984-47a5-9650-1a655c83ede5@d2a7.org
-URL:https://www.meetup.com/aindustriosa/events/284828910/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/299375511/
-DURATION:PT2H
-DTSTART:20240416T170000Z
-SUMMARY:Desvelando os secretos da rede de Kubernetes:
-UID:012ba3b5-700c-4a64-93e9-9876bb390c0d@012b.org
-URL:https://www.meetup.com/aindustriosa/events/299375511/
+DTSTART:20230624T093000Z
+SUMMARY:Tecnoloxía Aplicada á Investigación en Ocupación\, Igualdade e Saúde.
+UID:8ce1fb61-13e2-4c9e-8f0f-4204806f7045@8ce1.org
+URL:https://www.meetup.com/aindustriosa/events/294126778/
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:https://www.meetup.com/aindustriosa/events/261480118/
 DURATION:PT2H
 DTSTART:20190525T080000Z
 SUMMARY:Fotografía\, filma\, graba y monta tu propio proyecto audiovisual
-UID:3107365a-156c-4dd0-9c90-862aee420bb2@3107.org
+UID:8fc95676-1bce-41aa-bd19-d9b8cc81244b@8fc9.org
 URL:https://www.meetup.com/aindustriosa/events/261480118/
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/256143812/
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/280787473/
 DURATION:PT2H
-DTSTART:20181116T180000Z
-SUMMARY:Galicia\, el espacio y por qué seguir explorando
-UID:c74d3ac0-5cac-48cb-bb95-1003884876f3@c74d.org
-URL:https://www.meetup.com/aindustriosa/events/256143812/
+DTSTART:20210918T090000Z
+SUMMARY:Xornada de portas abertas (3)
+UID:7b0bd827-d8e3-436f-b581-b3f1fd5e3d5c@7b0b.org
+URL:https://www.meetup.com/aindustriosa/events/280787473/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/299082708/
+DURATION:PT2H
+DTSTART:20240217T100000Z
+SUMMARY:Obradoiro Segueliñas Rust: Sesión de introdución
+UID:d5f58828-4eff-44de-a15a-0c1b2a544d30@d5f5.org
+URL:https://www.meetup.com/aindustriosa/events/299082708/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/292116591/
+DURATION:PT2H
+DTSTART:20230318T083000Z
+SUMMARY:Kata mensual de Embedded Rust por Eloy Coto
+UID:bca559b9-479d-448f-a3da-0de04471a6df@bca5.org
+URL:https://www.meetup.com/aindustriosa/events/292116591/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/300425701/
+DURATION:PT2H
+DTSTART:20240420T080000Z
+SUMMARY:Fabricación de PCB´s con CNC
+UID:3d4035e8-f07d-4d91-836a-d0d84e7beea3@3d40.org
+URL:https://www.meetup.com/aindustriosa/events/300425701/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/289832355/
+DURATION:PT2H
+DTSTART:20221123T180000Z
+SUMMARY:Obradoiro de Iniciación a Impresión 3D
+UID:ddbf05d0-85d2-4bf7-935d-4ae54d72d580@ddbf.org
+URL:https://www.meetup.com/aindustriosa/events/289832355/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/248126197/
+DURATION:PT2H
+DTSTART:20180323T173000Z
+SUMMARY:Obradoiro de Golang
+UID:45aa3eba-9bf4-4c80-9c73-dc26fe4c0c84@45aa.org
+URL:https://www.meetup.com/aindustriosa/events/248126197/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/238600328/
+DURATION:PT2H
+DTSTART:20170403T173000Z
+SUMMARY:#10 - Introdución ó deseño naval
+UID:2cc01fe5-8eda-468b-b5a3-8e272283576f@2cc0.org
+URL:https://www.meetup.com/aindustriosa/events/238600328/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/250610366/
+DURATION:PT2H
+DTSTART:20180529T163000Z
+SUMMARY:Obradoiro introdución a GIT
+UID:5478af8e-3763-44d3-8463-a525d41537be@5478.org
+URL:https://www.meetup.com/aindustriosa/events/250610366/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/237932782/
+DURATION:PT2H
+DTSTART:20170405T173000Z
+SUMMARY:#9 - Introdución á tecnoloxía LiDAR
+UID:8c026283-338d-42b1-bb17-1a47f843f65f@8c02.org
+URL:https://www.meetup.com/aindustriosa/events/237932782/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/280487076/
+DURATION:PT2H
+DTSTART:20210904T090000Z
+SUMMARY:Xornada de portas abertas
+UID:ec23ba32-b542-4753-aed5-3aaa8ade9d24@ec23.org
+URL:https://www.meetup.com/aindustriosa/events/280487076/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/302268389/
+DURATION:PT2H
+DTSTART:20240720T090000Z
+SUMMARY:Obradoiro Segueliñas Rust
+UID:fa4e0677-fba1-471c-9d95-b27199afac58@fa4e.org
+URL:https://www.meetup.com/aindustriosa/events/302268389/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/239321508/
+DURATION:PT2H
+DTSTART:20170515T173000Z
+SUMMARY:#11 - De prototipo a empresa internacional.
+UID:0b3b739f-dafc-4729-8c47-2692a9521e74@0b3b.org
+URL:https://www.meetup.com/aindustriosa/events/239321508/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/265833034/
+DURATION:PT2H
+DTSTART:20191026T103000Z
+SUMMARY:Python\, kata e almorzo / Python\, kata y desayuno
+UID:ae6a04b2-f612-404a-b6ea-aa1e4732bdd0@ae6a.org
+URL:https://www.meetup.com/aindustriosa/events/265833034/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/303708479/
+DURATION:PT2H
+DTSTART:20241030T180000Z
+SUMMARY:A revolución da computación cuántica e as súas aplicacións.
+UID:b2e0cb2c-c57f-421c-8b81-36ba759f8476@b2e0.org
+URL:https://www.meetup.com/aindustriosa/events/303708479/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/296854461/
+DURATION:PT2H
+DTSTART:20231028T093000Z
+SUMMARY:Introducción a Mesa. Caso especifico dos dispositivos Raspberry Pi por Igalia
+UID:df0dd71b-a4b3-471c-980c-4a1f1b0b1dae@df0d.org
+URL:https://www.meetup.com/aindustriosa/events/296854461/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/236895940/
+DURATION:PT2H
+DTSTART:20170215T183000Z
+SUMMARY:#7- Introdución a OpenCV (Visión Artificial)
+UID:ffd961c1-d841-4002-ad03-6d1dc31c1a28@ffd9.org
+URL:https://www.meetup.com/aindustriosa/events/236895940/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/311091910/
+DURATION:PT2H
+DTSTART:20250927T093000Z
+SUMMARY:Presentación de proxectos do Fab Academy 2025 en A Industriosa
+UID:71f1e7ea-46e8-40eb-8351-83f171aac2af@71f1.org
+URL:https://www.meetup.com/aindustriosa/events/311091910/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/303620470/
+DURATION:PT2H
+DTSTART:20240926T173000Z
+SUMMARY:Acto de apertura PyConEs 2024 Vigo
+UID:a38de3b4-f129-4ea0-9087-bb0d0aba238b@a38d.org
+URL:https://www.meetup.com/aindustriosa/events/303620470/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/259736933/
+DURATION:PT2H
+DTSTART:20190320T180000Z
+SUMMARY:Introducción a las FPGAs+Verilog
+UID:2f57c8bd-e02f-4b4c-be79-d5271eb79dc4@2f57.org
+URL:https://www.meetup.com/aindustriosa/events/259736933/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/306579139/
+DURATION:PT2H
+DTSTART:20250322T090000Z
+SUMMARY:Galegos na FOSDEM
+UID:0b9c2062-326e-4f63-ae61-d707eb9ae41a@0b9c.org
+URL:https://www.meetup.com/aindustriosa/events/306579139/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/302572943/
+DURATION:PT2H
+DTSTART:20240810T090000Z
+SUMMARY:Obradoiro Segueliñas Rust
+UID:a235c61c-05f7-4a85-a1bd-db29cc10b5b1@a235.org
+URL:https://www.meetup.com/aindustriosa/events/302572943/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/288076970/
+DURATION:PT2H
+DTSTART:20220910T083000Z
+SUMMARY:III Hackaton de Domótica e IoT libre
+UID:f3b8df48-8870-4dfa-bd44-b7441ea1114b@f3b8.org
+URL:https://www.meetup.com/aindustriosa/events/288076970/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/251689710/
+DURATION:PT2H
+DTSTART:20180622T163000Z
+SUMMARY:Workshop de Kubernetes
+UID:44854bab-46a2-451c-a885-056e95af15d4@4485.org
+URL:https://www.meetup.com/aindustriosa/events/251689710/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/251039623/
+DURATION:PT2H
+DTSTART:20180601T170000Z
+SUMMARY:Robótica educativa. "Garabullo".
+UID:3cccf61c-d55c-459e-b32b-d5b171627d30@3ccc.org
+URL:https://www.meetup.com/aindustriosa/events/251039623/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/243513635/
+DURATION:PT2H
+DTSTART:20171005T163000Z
+SUMMARY:[A Industriosa]Obradoiro introdución a GIT
+UID:038a8ba3-4df4-4ebd-b161-ee0277e37ff3@038a.org
+URL:https://www.meetup.com/aindustriosa/events/243513635/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/254824933/
+DURATION:PT2H
+DTSTART:20181005T160000Z
+SUMMARY:Obradoiro de introdución a SDR
+UID:37a6eca2-c5f9-4577-957c-21d8736e0a84@37a6.org
+URL:https://www.meetup.com/aindustriosa/events/254824933/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/292477574/
+DURATION:PT2H
+DTSTART:20230401T090000Z
+SUMMARY:Python\, kata e almorzo / Python\, kata y desayuno - 9ª Edición
+UID:1d3e0179-9d28-4e39-b1fd-e913a61bc978@1d3e.org
+URL:https://www.meetup.com/aindustriosa/events/292477574/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/247970142/
+DURATION:PT2H
+DTSTART:20180316T173000Z
+SUMMARY:Taller de iniciación a Blender Game Engine
+UID:16632126-dd57-473a-8583-f3772b7810a4@1663.org
+URL:https://www.meetup.com/aindustriosa/events/247970142/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/258328084/
+DURATION:PT2H
+DTSTART:20190208T180000Z
+SUMMARY:[Obradoiro] Python para non pythonistas
+UID:ae112d2b-6ffb-4286-8c92-a5e7149ae0fe@ae11.org
+URL:https://www.meetup.com/aindustriosa/events/258328084/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/293490731/
+DURATION:PT2H
+DTSTART:20230520T090000Z
+SUMMARY:Obradoiro de iniciación a KiCad. Deseña e fabrica os teus PCB´s.
+UID:743fe70e-4864-4b02-b01a-d266477dca66@743f.org
+URL:https://www.meetup.com/aindustriosa/events/293490731/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/264164742/
+DURATION:PT2H
+DTSTART:20190914T080000Z
+SUMMARY:Hackathon sobre e-textiles
+UID:5c4415cc-f613-44de-aca6-90eebd662fe3@5c44.org
+URL:https://www.meetup.com/aindustriosa/events/264164742/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/293701569/
+DURATION:PT2H
+DTSTART:20230527T073000Z
+SUMMARY:Kata mensual de Embedded Rust por Eloy Coto
+UID:7aa10e07-5b76-4146-ab9e-028fa93cfbb9@7aa1.org
+URL:https://www.meetup.com/aindustriosa/events/293701569/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/303264558/
+DURATION:PT2H
+DTSTART:20240912T170000Z
+SUMMARY:Clasificación y extracción de información con Function Calling de Gemini
+UID:42ccb2dd-d672-40ba-9dda-f932e3873280@42cc.org
+URL:https://www.meetup.com/aindustriosa/events/303264558/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/298258392/
+DURATION:PT2H
+DTSTART:20240120T100000Z
+SUMMARY:Menores e Novas Tecnoloxías - Benvidos ao deserto do real
+UID:fa918169-9607-455a-a8d5-47b0a3698a1b@fa91.org
+URL:https://www.meetup.com/aindustriosa/events/298258392/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/285614521/
+DURATION:PT2H
+DTSTART:20220519T160000Z
+SUMMARY:OBRADOIRO DE INICIACIÓN Ó MODELADO 3D CON BLENDER - 2ª Sesión
+UID:82d597a2-d411-456e-8035-0774edc0402e@82d5.org
+URL:https://www.meetup.com/aindustriosa/events/285614521/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/266587064/
+DURATION:PT2H
+DTSTART:20191128T180000Z
+SUMMARY:NERVADURA - VERTIXE SONORA
+UID:74709492-2557-4d90-a514-b35f31867c63@7470.org
+URL:https://www.meetup.com/aindustriosa/events/266587064/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/279527031/
+DURATION:PT2H
+DTSTART:20210821T090000Z
+SUMMARY:Obradoiro/Hackathon Rural LoRaWAN
+UID:0c592464-79d5-4ae1-87e4-c3ad3d7c95c9@0c59.org
+URL:https://www.meetup.com/aindustriosa/events/279527031/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/269813852/
+DURATION:PT2H
+DTSTART:20200418T093000Z
+SUMMARY:[Virtual meetup] Python\, kata e almorzo / Python\, kata y desayuno - 7ª Edición
+UID:6dde4d26-62bc-4c44-ab99-ae108d7b720f@6dde.org
+URL:https://www.meetup.com/aindustriosa/events/269813852/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/294357009/
+DURATION:PT2H
+DTSTART:20230626T170000Z
+SUMMARY:Robótica de competición: OPRobots\, moita\, moita proba e erro.
+UID:83cf665f-612c-48b7-91ec-ca2dbbe01cbf@83cf.org
+URL:https://www.meetup.com/aindustriosa/events/294357009/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/251679992/
+DURATION:PT2H
+DTSTART:20180618T170000Z
+SUMMARY:Aviación experimental
+UID:312c41ea-23b5-4a74-9f46-337c5ae4e960@312c.org
+URL:https://www.meetup.com/aindustriosa/events/251679992/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/247653367/
+DURATION:PT2H
+DTSTART:20180309T180000Z
+SUMMARY:#18 - Robótica de competición (Carreras\, mini-sumo y humanoides)
+UID:9eb65a00-a690-4a57-9c4a-29360c7b2879@9eb6.org
+URL:https://www.meetup.com/aindustriosa/events/247653367/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/260176444/
+DURATION:PT2H
+DTSTART:20190405T170000Z
+SUMMARY:Que fan os arqueólogos coas novas tecnoloxías? Cara a Arqueoloxía 4.0
+UID:67ab5aca-1be4-49d2-a181-c33ceac006cd@67ab.org
+URL:https://www.meetup.com/aindustriosa/events/260176444/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/280939499/
+DURATION:PT2H
+DTSTART:20211009T083000Z
+SUMMARY:Hackatón de Domótica e IoT libre
+UID:78493aac-3f13-48de-93f3-5b41ecb4f16e@7849.org
+URL:https://www.meetup.com/aindustriosa/events/280939499/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/299611775/
+DURATION:PT2H
+DTSTART:20240613T170000Z
+SUMMARY:Descubre o poder da programación funcional a través de OCaml
+UID:d9120548-5427-4e3a-ab54-d936375142b1@d912.org
+URL:https://www.meetup.com/aindustriosa/events/299611775/
 END:VEVENT
 END:VCALENDAR
