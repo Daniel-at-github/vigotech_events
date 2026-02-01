@@ -3,35 +3,13 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Community Calendar Comparison</title>
-
-        <!-- FullCalendar -->
-        <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.10/index.global.min.js"></script>
-
-        <!-- TOAST UI Calendar -->
-        <link
-            rel="stylesheet"
-            href="https://uicdn.toast.com/tui-calendar/latest/tui-calendar.css"
-        />
-        <script src="https://uicdn.toast.com/tui-calendar/latest/tui-calendar.js"></script>
-
-        <!-- DayPilot Lite -->
-        <script src="https://cdn.daypilot.org/daypilot-lite.min.js"></script>
-
+        <title>Community Events</title>
         <style>
             body {
                 margin: 0;
                 font-family: Arial, sans-serif;
                 padding: 20px;
                 background-color: #f4f4f9;
-            }
-            #calendar {
-                max-width: 1200px;
-                margin: 30px auto;
-                background: white;
-                padding: 20px;
-                border-radius: 8px;
-                box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
             }
             .container {
                 max-width: 1200px;
@@ -40,13 +18,6 @@
             h1 {
                 text-align: center;
                 color: #333;
-            }
-            h2 {
-                text-align: center;
-                color: #555;
-                border-bottom: 2px solid #ddd;
-                padding-bottom: 10px;
-                margin-top: 50px;
             }
 
             /* Link List Styling */
@@ -79,38 +50,6 @@
             }
             .download-links a:hover {
                 text-decoration: underline;
-            }
-
-            /* Comparison Grid */
-            .comparison-container {
-                display: grid;
-                grid-template-columns: 1fr 1fr;
-                gap: 30px;
-                margin-top: 30px;
-            }
-
-            @media (max-width: 900px) {
-                .comparison-container {
-                    grid-template-columns: 1fr;
-                }
-            }
-
-            .calendar-box {
-                background: white;
-                padding: 20px;
-                border-radius: 8px;
-                box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-                min-height: 650px;
-            }
-
-            /* Specific styles for TOAST UI */
-            #tui-calendar {
-                height: 600px;
-                width: 100%;
-                font-size: 14px;
-            }
-            .tui-full-calendar-month-weekday-item {
-                height: 90px !important; /* Make cells taller to fit events */
             }
         </style>
     </head>
@@ -192,253 +131,6 @@
                     </div>
                 </div>
             </div>
-
-            <!-- 1. FullCalendar -->
-            <div id="calendar"></div>
-
-            <h2>Comparison View</h2>
-
-            <div class="comparison-container">
-                <!-- 2. TOAST UI Calendar -->
-                <div class="calendar-box">
-                    <h3 style="text-align: center; color: #444">
-                        TOAST UI Calendar
-                    </h3>
-                    <div id="tui-calendar"></div>
-                </div>
-
-                <!-- 3. DayPilot Lite -->
-                <div class="calendar-box">
-                    <h3 style="text-align: center; color: #444">
-                        DayPilot Lite
-                    </h3>
-                    <div id="daypilot-calendar"></div>
-                </div>
-            </div>
         </div>
-
-        <script>
-            // ------------------------------------------------------------
-            // DATA: Embedded Sysarmy Data for the comparison calendars
-            // ------------------------------------------------------------
-            // Embedding this here ensures the new calendars show data immediately
-            // even if running directly from file:// protocol (no server).
-            const rawSysarmyData = [
-                {
-                    title: "AdminCa\u00f1as",
-                    date: 1764961200000,
-                    url: "https://www.meetup.com/sysarmy-galicia/events/312249141/",
-                },
-                {
-                    title: "AdminCa\u00f1as",
-                    date: 1757095200000,
-                    url: "https://www.meetup.com/sysarmy-galicia/events/310808576/",
-                },
-                {
-                    title: "OlivArmy: Tech + Beers",
-                    date: 1754668800000,
-                    url: "https://www.meetup.com/sysarmy-galicia/events/310386622/",
-                },
-                {
-                    title: "AdminCa\u00f1as",
-                    date: 1754071200000,
-                    url: "https://www.meetup.com/sysarmy-galicia/events/310215144/",
-                },
-                {
-                    title: "OlivArmy: Tech + Beers",
-                    date: 1753552800000,
-                    url: "https://www.meetup.com/sysarmy-galicia/events/309384426/",
-                },
-                {
-                    title: "OlivArmy: Tech + Beers",
-                    date: 1751119200000,
-                    url: "https://www.meetup.com/sysarmy-galicia/events/308538771/",
-                },
-                {
-                    title: "AdminCa\u00f1as Vigo",
-                    date: 1747418400000,
-                    url: "https://www.meetup.com/sysarmy-galicia/events/307749845/",
-                },
-                {
-                    title: "OlivArmy: Tech + Beers",
-                    date: 1744473600000,
-                    url: "https://www.meetup.com/sysarmy-galicia/events/307122209/",
-                },
-            ];
-
-            // Helper to convert raw data to formats needed by TOAST UI and DayPilot
-            // Assuming 2 hour duration based on ICS file
-            function convertToStandardEvents(data) {
-                return data.map((item) => {
-                    const start = new Date(item.date);
-                    const end = new Date(item.date);
-                    end.setHours(end.getHours() + 2);
-                    return {
-                        id: item.url,
-                        title: item.title,
-                        start: start.toISOString(),
-                        end: end.toISOString(),
-                        url: item.url,
-                    };
-                });
-            }
-
-            const formattedEvents = convertToStandardEvents(rawSysarmyData);
-
-            // ------------------------------------------------------------
-            // 1. FULLCALENDAR INITIALIZATION
-            // ------------------------------------------------------------
-            document.addEventListener("DOMContentLoaded", function () {
-                var calendarEl = document.getElementById("calendar");
-                var calendar = new FullCalendar.Calendar(calendarEl, {
-                    initialView: "dayGridMonth",
-                    headerToolbar: {
-                        left: "prev,next today",
-                        center: "title",
-                        right: "dayGridMonth,timeGridWeek,listWeek",
-                    },
-                    height: "auto",
-                    eventSources: [
-                        {
-                            url: "calendars/craftersvigo.ics",
-                            format: "ics",
-                            color: "#bf809b",
-                            textColor: "white",
-                        },
-                        {
-                            url: "calendars/aindustriosa.ics",
-                            format: "ics",
-                            color: "#87abb0",
-                            textColor: "white",
-                        },
-                        {
-                            url: "calendars/sysarmy-galicia.ics",
-                            format: "ics",
-                            color: "#91c9d1",
-                            textColor: "white",
-                        },
-                        {
-                            url: "calendars/obradoiros_galpon.ics",
-                            format: "ics",
-                            color: "#8f85f8",
-                            textColor: "white",
-                        },
-                        {
-                            url: "calendars/vigo-wordpress-meetup.ics",
-                            format: "ics",
-                            color: "#f7b6bc",
-                            textColor: "white",
-                        },
-                    ],
-                });
-                calendar.render();
-            });
-
-            // ------------------------------------------------------------
-            // 2. TOAST UI CALENDAR INITIALIZATION
-            // ------------------------------------------------------------
-            document.addEventListener("DOMContentLoaded", function () {
-                if (typeof tui === "undefined") return;
-
-                const cal = new tui.Calendar(
-                    document.getElementById("tui-calendar"),
-                    {
-                        defaultView: "month",
-                        useCreationPopup: false, // Disable clicking to create
-                        useDetailPopup: true, // Enable clicking to see details
-                        month: {
-                            startDayOfWeek: 0,
-                            daynames: [
-                                "Sun",
-                                "Mon",
-                                "Tue",
-                                "Wed",
-                                "Thu",
-                                "Fri",
-                                "Sat",
-                            ],
-                        },
-                        theme: {
-                            "common.border": "1px solid #e5e5e5",
-                            "month.dayname.height": "30px",
-                        },
-                    },
-                );
-
-                // Convert formatted events to TOAST UI specific structure
-                const tuiEvents = formattedEvents.map((e) => {
-                    const start = new Date(e.start);
-                    const end = new Date(e.end);
-                    return {
-                        id: e.id,
-                        calendarId: "1",
-                        title: e.title,
-                        category: "time",
-                        start:
-                            start.toISOString().substring(0, 10) +
-                            "T" +
-                            start.toISOString().substring(11, 19),
-                        end:
-                            end.toISOString().substring(0, 10) +
-                            "T" +
-                            end.toISOString().substring(11, 19),
-                        bgColor: "#91c9d1",
-                        borderColor: "#91c9d1",
-                    };
-                });
-
-                cal.createEvents(tuiEvents);
-
-                // Jump to the first event date so calendar isn't empty on load
-                if (tuiEvents.length > 0) {
-                    cal.setDate(tuiEvents[0].start);
-                }
-            });
-
-            // ------------------------------------------------------------
-            // 3. DAYPILOT LITE INITIALIZATION
-            // ------------------------------------------------------------
-            document.addEventListener("DOMContentLoaded", function () {
-                if (typeof DayPilot === "undefined") return;
-
-                const dp = new DayPilot.Calendar("daypilot-calendar", {
-                    viewType: "Month",
-                    eventClickHandling: "Enabled", // Allow clicking events
-
-                    // Styling to match the theme
-                    headerBackColor: "#f4f4f9",
-                    eventBackColor: "#91c9d1",
-                    eventBorderColor: "#91c9d1",
-                    eventFontColor: "#ffffff",
-                    cellHeaderBackColor: "#ffffff",
-                    cellBorderColor: "#eee",
-
-                    // Handle click to open URL
-                    onEventClicked: function (args) {
-                        if (args.e.data.url) {
-                            window.open(args.e.data.url, "_blank");
-                        }
-                    },
-                });
-
-                // Convert formatted events to DayPilot structure
-                dp.events.list = formattedEvents.map((e) => {
-                    return {
-                        id: e.id,
-                        start: e.start,
-                        end: e.end,
-                        text: e.title,
-                        url: e.url,
-                    };
-                });
-
-                dp.init();
-
-                // Set start date to first event
-                if (formattedEvents.length > 0) {
-                    dp.startDate = formattedEvents[0].start;
-                }
-            });
-        </script>
     </body>
 </html>
