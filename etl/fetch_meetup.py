@@ -19,6 +19,7 @@ Usage (from project root):
 
 import datetime
 import json
+import subprocess
 import sys
 import time
 from pathlib import Path
@@ -100,26 +101,32 @@ def fetch_events_for_group(
     group_urlname: str, graphql_hash: str
 ) -> List[Dict[str, Any]]:
     """
-    Fetches events.
-    Logic: Fetch 'past' events up to a date far in the future to get everything,
-    then filter locally to keep last 1.5 years + all future.
+    Fetches events for a specific group.
+
+    Logic:
+    1. Queries 'past' events up to 1 year in the future (to capture everything).
+    2. Filters results locally to keep events from the last 1.5 years onwards.
+    3. Includes a fallback mechanism: if the API returns a 400/PersistedQuery error,
+       it attempts to re-discover the hash using Playwright and retries the request.
     """
     events = []
     cursor = None
     has_next_page = True
 
-    # We set the horizon to 1 year in the future to ensure we catch all future events
-    # using the 'past' events endpoint (which essentially acts as 'all events' if before is far away).
+    # 1. Time Logic Setup
+    # We set the API horizon to 1 year in the future.
+    # Using the 'past' query with a far-future 'before' date allows us to fetch
+    # all history available in one direction.
     future_horizon = (
         (datetime.datetime.now(datetime.timezone.utc) + datetime.timedelta(days=365))
         .isoformat()
         .replace("+00:00", "Z")
     )
 
-    # Calculate cutoff date (1.5 years ago)
+    # Calculate cutoff: 1.5 years (approx 540 days) ago
     cutoff_date = datetime.datetime.now(datetime.timezone.utc) - datetime.timedelta(
         days=540
-    )  # 18 months
+    )
 
     print(f"Fetching events for: {group_urlname}")
 
@@ -137,28 +144,94 @@ def fetch_events_for_group(
         }
 
         try:
+            # 2. Make Request (with tenacity retries for network errors)
             response = __make_request(payload)
 
+            # 3. Handle Specific API Errors (Hash Invalid?)
             if response.status_code != 200:
-                print(
-                    f"Error fetching {group_urlname}: HTTP {response.status_code}",
-                    file=sys.stderr,
-                )
+                err_body = {}
                 try:
-                    err_data = response.json()
-                    print(f"API Error: {err_data}", file=sys.stderr)
+                    err_body = response.json()
                 except:
-                    print(f"Response body: {response.text[:200]}", file=sys.stderr)
-                break
+                    pass
 
+                # Check specifically for PersistedQueryNotFound (usually HTTP 400)
+                is_hash_error = response.status_code == 400 or (
+                    isinstance(err_body, dict)
+                    and "PersistedQueryNotFound" in str(err_body)
+                )
+
+                if is_hash_error:
+                    print(
+                        f"  !! API Error: Invalid Hash for {group_urlname}.",
+                        file=sys.stderr,
+                    )
+                    print("  !! Attempting auto-discovery...", file=sys.stderr)
+
+                    try:
+                        # Run the discovery script as a subprocess
+                        # Assumes 'discover_meetup_hash.py' is in the etl folder
+                        subprocess.run(
+                            ["uv", "run", "etl/discover_meetup_hash.py"],
+                            check=True,
+                            capture_output=True,
+                        )
+
+                        print(
+                            "  !! Hash updated. Reloading config and retrying...",
+                            file=sys.stderr,
+                        )
+
+                        # Reload the config to get the fresh hash
+                        new_config = load_config()
+                        new_hash = new_config.get("graphql_hash")
+
+                        if new_hash:
+                            payload["extensions"]["persistedQuery"]["sha256Hash"] = (
+                                new_hash
+                            )
+                            # Retry the request immediately
+                            response = __make_request(payload)
+                        else:
+                            print(
+                                "  !! Discovery succeeded but no hash found in config.",
+                                file=sys.stderr,
+                            )
+
+                    except subprocess.CalledProcessError as e:
+                        print(f"  !! Auto-discovery failed: {e}", file=sys.stderr)
+                        print(
+                            f"  !! Response: {e.stderr.decode() if e.stderr else ''}",
+                            file=sys.stderr,
+                        )
+                        # If discovery fails, we can't proceed with this group
+                        break
+
+                    # If retry still fails, break
+                    if response.status_code != 200:
+                        print(
+                            f"  !! Retry failed. Aborting fetch for {group_urlname}.",
+                            file=sys.stderr,
+                        )
+                        break
+                else:
+                    # Non-hash related HTTP error
+                    print(
+                        f"Error fetching {group_urlname}: HTTP {response.status_code}",
+                        file=sys.stderr,
+                    )
+                    try:
+                        print(f"Response body: {response.text[:200]}", file=sys.stderr)
+                    except:
+                        pass
+                    break
+
+            # 4. Parse Response
             data = response.json()
             group_data = data.get("data", {}).get("groupByUrlname")
 
             if not group_data:
-                print(
-                    f"No data found for {group_urlname}. The group might not exist.",
-                    file=sys.stderr,
-                )
+                print(f"No data found for {group_urlname}.", file=sys.stderr)
                 break
 
             events_data = group_data.get("events", {})
@@ -168,13 +241,10 @@ def fetch_events_for_group(
             for edge in edges:
                 node = edge.get("node", {})
 
-                # Transform immediately
+                # 5. Transform and Filter
                 transformed = __transform_event(node)
 
-                # Filter logic: Keep events starting after cutoff OR keep it if it's very recent
-                # (Since 'past' query usually returns newest first, we stop if we go too far back)
-
-                # 1. Parse date from the transformed event (or raw node) to check cutoff
+                # Parse date to apply the "1.5 years ago" filter
                 dt_obj = None
                 date_str = node.get("dateTime")
                 if date_str:
@@ -183,17 +253,16 @@ def fetch_events_for_group(
                     except ValueError:
                         pass
 
-                # If date is valid
                 if dt_obj:
+                    # Keep if event is after the cutoff (Future + Recent Past)
                     if dt_obj >= cutoff_date:
                         events.append(transformed)
-                    else:
-                        # Optimization: Since API returns descending (newest first),
-                        # if we hit a date older than cutoff, we are done for this page.
-                        # Note: Some APIs return mixed pagination, but Meetup GQL is usually chronological.
-                        # We'll rely on the logic: append if valid, loop continues until pagination ends.
-                        pass
+                    # Note: If dt_obj is older than cutoff, we just skip it.
+                    # Since Meetup returns descending (newest first), theoretically
+                    # we *could* break the loop here, but pagination order isn't
+                    # always guaranteed, so we iterate safely.
 
+            # 6. Pagination
             has_next_page = page_info.get("hasNextPage", False)
             cursor = page_info.get("endCursor")
 
