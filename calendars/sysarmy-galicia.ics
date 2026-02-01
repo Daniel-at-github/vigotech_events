@@ -1,0 +1,60 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:ics.py - http://git.io/lLljaA
+BEGIN:VEVENT
+DESCRIPTION:https://www.meetup.com/sysarmy-galicia/events/310808576/
+DTSTART:20250905T180000Z
+SUMMARY:AdminCañas
+UID:0ffc4f3d-6e3c-4b56-8776-851d2f144eca@0ffc.org
+URL:https://www.meetup.com/sysarmy-galicia/events/310808576/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://www.meetup.com/sysarmy-galicia/events/307749845/
+DTSTART:20250516T180000Z
+SUMMARY:AdminCañas Vigo
+UID:108de299-dc11-4fad-8543-35d8ebd22f5e@108d.org
+URL:https://www.meetup.com/sysarmy-galicia/events/307749845/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://www.meetup.com/sysarmy-galicia/events/308538771/
+DTSTART:20250628T140000Z
+SUMMARY:OlivArmy: Tech + Beers
+UID:cbfe73b7-86ce-4b85-9b02-1486485c735e@cbfe.org
+URL:https://www.meetup.com/sysarmy-galicia/events/308538771/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://www.meetup.com/sysarmy-galicia/events/309384426/
+DTSTART:20250726T180000Z
+SUMMARY:OlivArmy: Tech + Beers
+UID:1f423202-4cab-4269-9ad6-1db8280b4b97@1f42.org
+URL:https://www.meetup.com/sysarmy-galicia/events/309384426/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://www.meetup.com/sysarmy-galicia/events/312249141/
+DTSTART:20251205T190000Z
+SUMMARY:AdminCañas
+UID:2378be25-3cf2-41e9-9bde-36bca9e161d6@2378.org
+URL:https://www.meetup.com/sysarmy-galicia/events/312249141/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://www.meetup.com/sysarmy-galicia/events/307122209/
+DTSTART:20250412T160000Z
+SUMMARY:OlivArmy: Tech + Beers
+UID:4a1a6525-b46b-4c29-998a-b6c76853fbef@4a1a.org
+URL:https://www.meetup.com/sysarmy-galicia/events/307122209/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://www.meetup.com/sysarmy-galicia/events/310215144/
+DTSTART:20250801T180000Z
+SUMMARY:AdminCañas
+UID:dfe48227-6835-4b68-9fbe-538020ae8f4a@dfe4.org
+URL:https://www.meetup.com/sysarmy-galicia/events/310215144/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://www.meetup.com/sysarmy-galicia/events/310386622/
+DTSTART:20250808T160000Z
+SUMMARY:OlivArmy: Tech + Beers
+UID:f768eb31-37cf-4406-80c3-761cb0ff4c26@f768.org
+URL:https://www.meetup.com/sysarmy-galicia/events/310386622/
+END:VEVENT
+END:VCALENDAR
