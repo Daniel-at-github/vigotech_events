@@ -55,31 +55,33 @@ HEADERS = {
 }
 
 
-def load_config() -> Dict[str, Any]:
-    """Loads the configuration (groups and hash) from meetup.json."""
+def load_config() -> List[str]:
+    """
+    Loads the list of group usernames from meetup.json.
+    Expects a simple JSON array of strings, e.g. ["group1", "group2"]
+    """
     if not CONFIG_PATH.exists():
         print(f"Error: Configuration file '{CONFIG_PATH}' not found.", file=sys.stderr)
         sys.exit(1)
 
     try:
         with open(CONFIG_PATH, "r", encoding="utf-8") as f:
-            config = json.load(f)
+            data = json.load(f)
 
-            if not isinstance(config, dict):
-                print(
-                    f"Error: {CONFIG_PATH} must be a JSON object with 'groups' and 'graphql_hash'.",
-                    file=sys.stderr,
-                )
+            # Handle both old dict format and new list format for robustness
+            if isinstance(data, dict):
+                groups = data.get("groups")
+            elif isinstance(data, list):
+                groups = data
+            else:
+                print(f"Error: {CONFIG_PATH} must be a JSON list.", file=sys.stderr)
                 sys.exit(1)
 
-            if "groups" not in config or "graphql_hash" not in config:
-                print(
-                    f"Error: {CONFIG_PATH} missing 'groups' or 'graphql_hash'.",
-                    file=sys.stderr,
-                )
+            if not groups:
+                print(f"Error: No groups found in {CONFIG_PATH}.", file=sys.stderr)
                 sys.exit(1)
 
-            return config
+            return groups
     except json.JSONDecodeError as e:
         print(f"Error: Failed to parse {CONFIG_PATH}. {e}", file=sys.stderr)
         sys.exit(1)
@@ -96,9 +98,7 @@ def __make_request(payload: Dict) -> requests.Response:
     return requests.post(API_URL, json=payload, headers=HEADERS, timeout=15)
 
 
-def fetch_events_for_group(
-    group_urlname: str, graphql_hash: str
-) -> List[Dict[str, Any]]:
+def fetch_events_for_group(group_urlname: str) -> List[Dict[str, Any]]:
     """
     Fetches events using a raw GraphQL query string to ensure we get 'duration'.
     """
@@ -255,13 +255,8 @@ def save_output(group_name: str, events: List[Dict[str, Any]]) -> None:
 def main():
     print("--- Meetup Event Fetcher ---")
 
-    config = load_config()
-    groups = config.get("groups", [])
-    graphql_hash = config.get("graphql_hash", "")
-
-    if not graphql_hash:
-        print("Error: graphql_hash is missing in config.", file=sys.stderr)
-        sys.exit(1)
+    # Load groups (config is now just a list)
+    groups = load_config()
 
     for group in groups:
         if not isinstance(group, str) or not group:
@@ -269,7 +264,8 @@ def main():
             continue
 
         try:
-            events = fetch_events_for_group(group, graphql_hash)
+            # No need to pass graphql_hash anymore
+            events = fetch_events_for_group(group)
             save_output(group, events)
         except KeyboardInterrupt:
             print("\nProcess interrupted by user.", file=sys.stderr)
