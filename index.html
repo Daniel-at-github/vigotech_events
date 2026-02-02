@@ -1,136 +1,160 @@
-<!doctype html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Community Events</title>
-        <style>
-            body {
-                margin: 0;
-                font-family: Arial, sans-serif;
-                padding: 20px;
-                background-color: #f4f4f9;
-            }
-            .container {
-                max-width: 1200px;
-                margin: 0 auto;
-            }
-            h1 {
-                text-align: center;
-                color: #333;
-            }
 
-            /* Link List Styling */
-            .links-grid {
-                display: grid;
-                grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-                gap: 15px;
-                margin-bottom: 20px;
-            }
-            .calendar-card {
-                background: white;
-                padding: 15px;
-                border-radius: 6px;
-                border-left: 5px solid #ccc;
-                box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-            }
-            .calendar-card h3 {
-                margin-top: 0;
-                font-size: 1.1em;
-                word-break: break-all;
-            }
-            .download-links {
-                margin-top: 10px;
-                font-size: 0.9em;
-            }
-            .download-links a {
-                margin-right: 10px;
-                text-decoration: none;
-                color: #0066cc;
-            }
-            .download-links a:hover {
-                text-decoration: underline;
-            }
-        </style>
-    </head>
-    <body>
-        <div class="container">
-            <h1>Community Events</h1>
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='utf-8' />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community Calendar</title>
+    <script src='https://cdn.jsdelivr.net/npm/fullcalendar@6.1.10/index.global.min.js'></script>
+    <style>
+        body { margin: 0; font-family: Arial, sans-serif; padding: 20px; background-color: #f4f4f9; }
+        #calendar { max-width: 1200px; margin: 30px auto; background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        .container { max-width: 1200px; margin: 0 auto; }
+        h1 { text-align: center; color: #333; }
 
-            <div class="links-grid">
-                <div class="calendar-card" style="border-left-color: #bf809b">
-                    <h3>craftersvigo</h3>
-                    <div class="download-links">
-                        <a href="calendars/craftersvigo.json" target="_blank"
-                            >JSON</a
-                        >
+        /* Link List Styling */
+        .links-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+        .calendar-card {
+            background: white;
+            padding: 15px;
+            border-radius: 6px;
+            border-left: 5px solid #ccc;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        .calendar-card h3 { margin-top: 0; font-size: 1.1em; word-break: break-all; }
+        .download-links { margin-top: 10px; font-size: 0.9em; }
+        .download-links a { margin-right: 10px; text-decoration: none; color: #0066cc; }
+        .download-links a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Community Events</h1>
 
-                        <a href="calendars/craftersvigo.ics" target="_blank"
-                            >ICS</a
-                        >
-                    </div>
-                </div>
-
-                <div class="calendar-card" style="border-left-color: #87abb0">
-                    <h3>aindustriosa</h3>
-                    <div class="download-links">
-                        <a href="calendars/aindustriosa.json" target="_blank"
-                            >JSON</a
-                        >
-
-                        <a href="calendars/aindustriosa.ics" target="_blank"
-                            >ICS</a
-                        >
-                    </div>
-                </div>
-
-                <div class="calendar-card" style="border-left-color: #91c9d1">
-                    <h3>sysarmy-galicia</h3>
-                    <div class="download-links">
-                        <a href="calendars/sysarmy-galicia.json" target="_blank"
-                            >JSON</a
-                        >
-
-                        <a href="calendars/sysarmy-galicia.ics" target="_blank"
-                            >ICS</a
-                        >
-                    </div>
-                </div>
-
-                <div class="calendar-card" style="border-left-color: #8f85f8">
-                    <h3>obradoiros_galpon</h3>
-                    <div class="download-links">
-                        <a
-                            href="calendars/obradoiros_galpon.json"
-                            target="_blank"
-                            >JSON</a
-                        >
-
-                        <a
-                            href="calendars/obradoiros_galpon.ics"
-                            target="_blank"
-                            >ICS</a
-                        >
-                    </div>
-                </div>
-
-                <div class="calendar-card" style="border-left-color: #f7b6bc">
-                    <h3>vigo-wordpress-meetup</h3>
-                    <div class="download-links">
-                        <a
-                            href="calendars/vigo-wordpress-meetup.json"
-                            target="_blank"
-                            >JSON</a
-                        >
-
-                        <a
-                            href="calendars/vigo-wordpress-meetup.ics"
-                            target="_blank"
-                            >ICS</a
-                        >
-                    </div>
+        <div class="links-grid">
+            
+            <div class="calendar-card" style="border-left-color: #bf809b;">
+                <h3>craftersvigo</h3>
+                <div class="download-links">
+                    
+                    <a href="calendars/craftersvigo.json" target="_blank">JSON</a>
+                    
+                    
+                    <a href="calendars/craftersvigo.ics" target="_blank">ICS</a>
+                    
                 </div>
             </div>
+            
+            <div class="calendar-card" style="border-left-color: #87abb0;">
+                <h3>aindustriosa</h3>
+                <div class="download-links">
+                    
+                    <a href="calendars/aindustriosa.json" target="_blank">JSON</a>
+                    
+                    
+                    <a href="calendars/aindustriosa.ics" target="_blank">ICS</a>
+                    
+                </div>
+            </div>
+            
+            <div class="calendar-card" style="border-left-color: #91c9d1;">
+                <h3>sysarmy-galicia</h3>
+                <div class="download-links">
+                    
+                    <a href="calendars/sysarmy-galicia.json" target="_blank">JSON</a>
+                    
+                    
+                    <a href="calendars/sysarmy-galicia.ics" target="_blank">ICS</a>
+                    
+                </div>
+            </div>
+            
+            <div class="calendar-card" style="border-left-color: #8f85f8;">
+                <h3>obradoiros_galpon</h3>
+                <div class="download-links">
+                    
+                    <a href="calendars/obradoiros_galpon.json" target="_blank">JSON</a>
+                    
+                    
+                    <a href="calendars/obradoiros_galpon.ics" target="_blank">ICS</a>
+                    
+                </div>
+            </div>
+            
+            <div class="calendar-card" style="border-left-color: #f7b6bc;">
+                <h3>vigo-wordpress-meetup</h3>
+                <div class="download-links">
+                    
+                    <a href="calendars/vigo-wordpress-meetup.json" target="_blank">JSON</a>
+                    
+                    
+                    <a href="calendars/vigo-wordpress-meetup.ics" target="_blank">ICS</a>
+                    
+                </div>
+            </div>
+            
         </div>
-    </body>
+
+        <div id='calendar'></div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var calendarEl = document.getElementById('calendar');
+            var calendar = new FullCalendar.Calendar(calendarEl, {
+                initialView: 'dayGridMonth',
+                headerToolbar: {
+                    left: 'prev,next today',
+                    center: 'title',
+                    right: 'dayGridMonth,timeGridWeek,listWeek'
+                },
+                height: 'auto',
+                eventSources: [
+                    
+                    {
+                        url: 'calendars/craftersvigo.ics',
+                        format: 'ics',
+                        color: '#bf809b',
+                        textColor: 'white'
+                    },
+                    
+                    {
+                        url: 'calendars/aindustriosa.ics',
+                        format: 'ics',
+                        color: '#87abb0',
+                        textColor: 'white'
+                    },
+                    
+                    {
+                        url: 'calendars/sysarmy-galicia.ics',
+                        format: 'ics',
+                        color: '#91c9d1',
+                        textColor: 'white'
+                    },
+                    
+                    {
+                        url: 'calendars/obradoiros_galpon.ics',
+                        format: 'ics',
+                        color: '#8f85f8',
+                        textColor: 'white'
+                    },
+                    
+                    {
+                        url: 'calendars/vigo-wordpress-meetup.ics',
+                        format: 'ics',
+                        color: '#f7b6bc',
+                        textColor: 'white'
+                    },
+                    
+                ]
+            });
+            calendar.render();
+        });
+    </script>
+</body>
 </html>
