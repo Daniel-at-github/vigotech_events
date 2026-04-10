@@ -4,6 +4,7 @@
 # requires-python = ">=3.9"
 # dependencies = [
 #     "ics",
+#     "tatsu<5.9",
 # ]
 # ///
 

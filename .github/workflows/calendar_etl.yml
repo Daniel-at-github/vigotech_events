@@ -17,7 +17,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Install uv
-        run: curl -LsSf https://astral.sh/uv/install.sh | sh
+        uses: astral-sh/setup-uv@cec208311dfd045dd5311c1add060b2062131d57 # v8.0.0
 
       - name: Run Mobilizon fetch script
         run: uv run etl/fetch_mobilizon.py
@@ -29,7 +29,6 @@ jobs:
         run: uv run etl/json_to_ics.py
 
       - name: Generate Website
-        # Installs jinja2 temporarily to run the script
         run: uv run --with jinja2 etl/generate_website.py
 
       - name: Commit and Push Changes
