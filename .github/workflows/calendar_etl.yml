@@ -2,7 +2,7 @@ name: Fetch Calendar Events
 
 on:
   schedule:
-    - cron: "0 2 * * *" # Run daily at 2:00 AM UTC
+    - cron: "0 16 * * *" # Run daily at 16:00 UTC
   workflow_dispatch:
 
 permissions:
