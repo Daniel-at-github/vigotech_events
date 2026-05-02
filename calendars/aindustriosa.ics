@@ -2,59 +2,59 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/303708479/
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/310761315/
 DURATION:PT2H
-DTSTART:20241030T180000Z
-SUMMARY:A revolución da computación cuántica e as súas aplicacións.
-UID:4a9ef389-2dd9-43c2-8ca5-5b3b18ec8d41@4a9e.org
-URL:https://www.meetup.com/aindustriosa/events/303708479/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/307589756/
-DURATION:PT2H
-DTSTART:20250521T170000Z
-SUMMARY:Obradoiro de iniciación ó modelado 3d con Blender
-UID:d7b72781-c6d1-4e57-8dad-661e065eb614@d7b7.org
-URL:https://www.meetup.com/aindustriosa/events/307589756/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/307599235/
-DURATION:PT2H
-DTSTART:20250618T170000Z
-SUMMARY:Obradoiro de iniciación ó modelado 3d con Blender
-UID:36639028-8b13-4ba0-a03d-7ac38b93f326@3663.org
-URL:https://www.meetup.com/aindustriosa/events/307599235/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/307588913/
-DURATION:PT2H
-DTSTART:20250507T170000Z
-SUMMARY:Obradoiro de iniciación ó modelado 3d con Blender
-UID:bf79885d-7629-4c91-ab30-b07203a81935@bf79.org
-URL:https://www.meetup.com/aindustriosa/events/307588913/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/303264558/
-DURATION:PT2H
-DTSTART:20240912T170000Z
-SUMMARY:Clasificación y extracción de información con Function Calling de Gemini
-UID:0fc79983-640b-4283-90e6-4225c6dded49@0fc7.org
-URL:https://www.meetup.com/aindustriosa/events/303264558/
+DTSTART:20250912T160000Z
+SUMMARY:Obradoiro de modelado low poly con Blender
+UID:a1b86513-7352-439a-a277-ae42e8f070ac@a1b8.org
+URL:https://www.meetup.com/aindustriosa/events/310761315/
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:https://www.meetup.com/aindustriosa/events/303620470/
 DURATION:PT2H
 DTSTART:20240926T173000Z
 SUMMARY:Acto de apertura PyConEs 2024 Vigo
-UID:10a73af6-de51-4076-ad07-7fbfb27624f3@10a7.org
+UID:04931c71-8b96-4b8c-8df3-e6903440fa6b@0493.org
 URL:https://www.meetup.com/aindustriosa/events/303620470/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/303264558/
+DURATION:PT2H
+DTSTART:20240912T170000Z
+SUMMARY:Clasificación y extracción de información con Function Calling de Gemini
+UID:67ad3ab3-60ec-4f0c-81c8-79ac5591c864@67ad.org
+URL:https://www.meetup.com/aindustriosa/events/303264558/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/307599235/
+DURATION:PT2H
+DTSTART:20250618T170000Z
+SUMMARY:Obradoiro de iniciación ó modelado 3d con Blender
+UID:387e7033-dec8-43d2-98b3-1b22b29a7ec0@387e.org
+URL:https://www.meetup.com/aindustriosa/events/307599235/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/307589756/
+DURATION:PT2H
+DTSTART:20250521T170000Z
+SUMMARY:Obradoiro de iniciación ó modelado 3d con Blender
+UID:9238c401-c351-455c-ba52-cacd21516265@9238.org
+URL:https://www.meetup.com/aindustriosa/events/307589756/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/307588913/
+DURATION:PT2H
+DTSTART:20250507T170000Z
+SUMMARY:Obradoiro de iniciación ó modelado 3d con Blender
+UID:eeace08d-cb49-4250-80b2-bc7243712380@eeac.org
+URL:https://www.meetup.com/aindustriosa/events/307588913/
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:https://www.meetup.com/aindustriosa/events/307599233/
 DURATION:PT2H
 DTSTART:20250604T170000Z
 SUMMARY:Obradoiro de iniciación ó modelado 3d con Blender
-UID:ee9c29bf-896a-4f16-a264-8e1005f12dd8@ee9c.org
+UID:562cd44f-beff-4f02-a62a-24c78e8c8754@562c.org
 URL:https://www.meetup.com/aindustriosa/events/307599233/
 END:VEVENT
 BEGIN:VEVENT
@@ -62,15 +62,47 @@ DESCRIPTION:https://www.meetup.com/aindustriosa/events/306579139/
 DURATION:PT2H
 DTSTART:20250322T090000Z
 SUMMARY:Galegos na FOSDEM
-UID:e97e500d-0c98-4ec6-85fe-823e4bce2519@e97e.org
+UID:3002f85e-d978-4f43-86f3-d5a90d9f18b8@3002.org
 URL:https://www.meetup.com/aindustriosa/events/306579139/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/304115173/
+DURATION:PT2H
+DTSTART:20241109T090000Z
+SUMMARY:Día Global do Code Retreat
+UID:b0b57bf6-4108-47b5-8d1b-669f6ecb929a@b0b5.org
+URL:https://www.meetup.com/aindustriosa/events/304115173/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/310761340/
+DURATION:PT2H
+DTSTART:20250913T080000Z
+SUMMARY:Obradoiro de síntese modular con MiniMo
+UID:e68c01c0-b9ad-4f8f-b3c1-5263abec0551@e68c.org
+URL:https://www.meetup.com/aindustriosa/events/310761340/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/303708479/
+DURATION:PT2H
+DTSTART:20241030T180000Z
+SUMMARY:A revolución da computación cuántica e as súas aplicacións.
+UID:25b774d1-f96d-4c92-a62d-5f59898a727c@25b7.org
+URL:https://www.meetup.com/aindustriosa/events/303708479/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://www.meetup.com/aindustriosa/events/303529040/
+DURATION:PT2H
+DTSTART:20241001T173000Z
+SUMMARY:De WordPress a Material for MkDocs. Cómo y porqué.
+UID:a83dbc89-8246-4df2-a22e-a5f8164cd45b@a83d.org
+URL:https://www.meetup.com/aindustriosa/events/303529040/
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:https://www.meetup.com/aindustriosa/events/304284795/
 DURATION:PT2H
 DTSTART:20241117T090000Z
 SUMMARY:Repair Café
-UID:22dc17ee-4d91-4c52-a951-50983824ae6d@22dc.org
+UID:d88aa92c-2781-4023-9b2e-62cf4d8b8094@d88a.org
 URL:https://www.meetup.com/aindustriosa/events/304284795/
 END:VEVENT
 BEGIN:VEVENT
@@ -78,39 +110,7 @@ DESCRIPTION:https://www.meetup.com/aindustriosa/events/311091910/
 DURATION:PT2H
 DTSTART:20250927T093000Z
 SUMMARY:Presentación de proxectos do Fab Academy 2025 en A Industriosa
-UID:776db0af-6072-4138-acb6-a39da8d21b91@776d.org
+UID:c355a2b3-8edb-44eb-a590-a2629cb0f0ba@c355.org
 URL:https://www.meetup.com/aindustriosa/events/311091910/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/304115173/
-DURATION:PT2H
-DTSTART:20241109T090000Z
-SUMMARY:Día Global do Code Retreat
-UID:46f95231-f01e-4bdb-b91c-060f52972ebf@46f9.org
-URL:https://www.meetup.com/aindustriosa/events/304115173/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/310761315/
-DURATION:PT2H
-DTSTART:20250912T160000Z
-SUMMARY:Obradoiro de modelado low poly con Blender
-UID:dc3bdf78-a2a3-4c08-a6a6-88f2a085f284@dc3b.org
-URL:https://www.meetup.com/aindustriosa/events/310761315/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/310761340/
-DURATION:PT2H
-DTSTART:20250913T080000Z
-SUMMARY:Obradoiro de síntese modular con MiniMo
-UID:3187148e-9140-44af-bac4-0a8c9b2ae0bb@3187.org
-URL:https://www.meetup.com/aindustriosa/events/310761340/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/aindustriosa/events/303529040/
-DURATION:PT2H
-DTSTART:20241001T173000Z
-SUMMARY:De WordPress a Material for MkDocs. Cómo y porqué.
-UID:0ec99aa0-7542-4241-bd15-903916ade7cf@0ec9.org
-URL:https://www.meetup.com/aindustriosa/events/303529040/
 END:VEVENT
 END:VCALENDAR
