@@ -2,139 +2,139 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/craftersvigo/events/308180042/
+DESCRIPTION:https://www.meetup.com/craftersvigo/events/306259692/
 DURATION:PT2H
-DTSTART:20250603T173000Z
-SUMMARY:#59 - Coding Dojo & PulpoCon25
-UID:0819541b-9cbc-4f7e-82ef-7789a8c455ff@0819.org
-URL:https://www.meetup.com/craftersvigo/events/308180042/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/craftersvigo/events/308180043/
-DURATION:PT2H
-DTSTART:20250603T173000Z
-SUMMARY:#59 - Coding Dojo & PulpoCon25
-UID:a43d946b-baf5-4b37-b99b-cef34d23ffc2@a43d.org
-URL:https://www.meetup.com/craftersvigo/events/308180043/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/craftersvigo/events/306851647/
-DURATION:PT2H
-DTSTART:20250325T183000Z
-SUMMARY:#53 - The Bowling Game
-UID:173a3604-aec2-4dc3-ac4f-b97cc7a5dd8f@173a.org
-URL:https://www.meetup.com/craftersvigo/events/306851647/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/craftersvigo/events/306549592/
-DURATION:PT2H
-DTSTART:20250311T183000Z
-SUMMARY:#53 - The ScoreKeeper Kata
-UID:ddc93da1-a473-4b7b-95a9-0743722e2ae3@ddc9.org
-URL:https://www.meetup.com/craftersvigo/events/306549592/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/craftersvigo/events/305791301/
-DURATION:PT2H
-DTSTART:20250128T183000Z
+DTSTART:20250225T183000Z
 SUMMARY:#52 - Coding dojo
-UID:8e25b5d7-f5a1-4c1e-b0a6-bf5585b188f1@8e25.org
-URL:https://www.meetup.com/craftersvigo/events/305791301/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/craftersvigo/events/304542806/
-DURATION:PT2H
-DTSTART:20241119T183000Z
-SUMMARY:#50 - Coding dojo: Args
-UID:39f33bd4-e46b-4fb5-aeea-74caf2c2d6d7@39f3.org
-URL:https://www.meetup.com/craftersvigo/events/304542806/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/craftersvigo/events/307857286/
-DURATION:PT2H
-DTSTART:20250520T173000Z
-SUMMARY:#58 - Coding Dojo: Wardrobe Configurator Kata
-UID:5a8ea227-732a-41ad-85a8-527b3b3e4a20@5a8e.org
-URL:https://www.meetup.com/craftersvigo/events/307857286/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/craftersvigo/events/313020309/
-DURATION:PT2H
-DTSTART:20260127T183000Z
-SUMMARY:#61 - Iniciamos el nuevo curso!!!
-UID:bd2e86ec-4c7a-48fa-9f87-ac5644fe09b3@bd2e.org
-URL:https://www.meetup.com/craftersvigo/events/313020309/
+UID:79753d39-fecb-4bc3-baba-35383c4ee7bb@7975.org
+URL:https://www.meetup.com/craftersvigo/events/306259692/
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:https://www.meetup.com/craftersvigo/events/304290120/
 DURATION:PT2H
 DTSTART:20241105T183000Z
 SUMMARY:#49 - Coding dojo: Bank OCR (cont.)
-UID:4c926197-b09a-413d-b752-9ab514f42b37@4c92.org
+UID:f2904bba-b45a-431e-9b32-280972dbc0a9@f290.org
 URL:https://www.meetup.com/craftersvigo/events/304290120/
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/craftersvigo/events/304059332/
+DESCRIPTION:https://www.meetup.com/craftersvigo/events/304542806/
 DURATION:PT2H
-DTSTART:20241022T173000Z
-SUMMARY:#47 - Coding dojo: Bank OCR
-UID:ef30c74a-d84c-4237-b846-42916b463050@ef30.org
-URL:https://www.meetup.com/craftersvigo/events/304059332/
+DTSTART:20241119T183000Z
+SUMMARY:#50 - Coding dojo: Args
+UID:aaf1536c-91b9-4b34-8824-f03a284b1283@aaf1.org
+URL:https://www.meetup.com/craftersvigo/events/304542806/
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/craftersvigo/events/306259692/
+DESCRIPTION:https://www.meetup.com/craftersvigo/events/308180043/
 DURATION:PT2H
-DTSTART:20250225T183000Z
-SUMMARY:#52 - Coding dojo
-UID:b2f227de-b188-4c73-b7fd-aa2fd703d4a1@b2f2.org
-URL:https://www.meetup.com/craftersvigo/events/306259692/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/craftersvigo/events/304843661/
-DURATION:PT2H
-DTSTART:20241203T183000Z
-SUMMARY:#51 - Coding dojo: Args
-UID:d34182a3-1aeb-4963-bbd6-efc8605394aa@d341.org
-URL:https://www.meetup.com/craftersvigo/events/304843661/
+DTSTART:20250603T173000Z
+SUMMARY:#59 - Coding Dojo & PulpoCon25
+UID:cd58908d-d6cc-4c1f-b181-4d6b33fe8737@cd58.org
+URL:https://www.meetup.com/craftersvigo/events/308180043/
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:https://www.meetup.com/craftersvigo/events/307265693/
 DURATION:PT2H
 DTSTART:20250422T173000Z
 SUMMARY:#56 - Charla: Test Desiderata. Propiedades que fan os nosos tests máis valiosos.
-UID:c99f082a-2ded-4547-ae4a-60ad1b08cdd0@c99f.org
+UID:241ad56f-00a4-4524-879b-e149d73ab4e9@241a.org
 URL:https://www.meetup.com/craftersvigo/events/307265693/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://www.meetup.com/craftersvigo/events/305791301/
+DURATION:PT2H
+DTSTART:20250128T183000Z
+SUMMARY:#52 - Coding dojo
+UID:bc3854a0-5138-4b2d-8992-406a13a48e04@bc38.org
+URL:https://www.meetup.com/craftersvigo/events/305791301/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://www.meetup.com/craftersvigo/events/307857286/
+DURATION:PT2H
+DTSTART:20250520T173000Z
+SUMMARY:#58 - Coding Dojo: Wardrobe Configurator Kata
+UID:d23f2e59-9f29-4774-b4a1-c88645e4b4b4@d23f.org
+URL:https://www.meetup.com/craftersvigo/events/307857286/
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:https://www.meetup.com/craftersvigo/events/304122795/
 DURATION:PT2H
 DTSTART:20241109T090000Z
 SUMMARY:Día Mundial do Code Retreat
-UID:6299ee90-9dff-412e-8311-5f95deaa978b@6299.org
+UID:9743ed70-45da-4902-9fe3-1c29f90df4a5@9743.org
 URL:https://www.meetup.com/craftersvigo/events/304122795/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/craftersvigo/events/307109665/
-DURATION:PT2H
-DTSTART:20250408T173000Z
-SUMMARY:#54 - The Cupcake Kata
-UID:b0e8ddf1-3d83-493c-a6fb-200f76845e53@b0e8.org
-URL:https://www.meetup.com/craftersvigo/events/307109665/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/craftersvigo/events/308461839/
-DURATION:PT2H
-DTSTART:20250617T173000Z
-SUMMARY:#60 - Coding Dojo & Fin de temporada
-UID:c87136e6-90da-43bd-bf3b-449d63f051df@c871.org
-URL:https://www.meetup.com/craftersvigo/events/308461839/
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:https://www.meetup.com/craftersvigo/events/307490787/
 DURATION:PT2H
 DTSTART:20250506T173000Z
 SUMMARY:#57 - Charla: No\, lo que haces no es DDD (y tampoco pasa nada)
-UID:bd9ccbdf-ffbb-4661-9463-156bd0440c3a@bd9c.org
+UID:890d6f65-dcaf-486d-86c5-854ce1040b14@890d.org
 URL:https://www.meetup.com/craftersvigo/events/307490787/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://www.meetup.com/craftersvigo/events/306851647/
+DURATION:PT2H
+DTSTART:20250325T183000Z
+SUMMARY:#53 - The Bowling Game
+UID:b8fcfdbb-3f63-41a8-b3bc-6ce501e74bed@b8fc.org
+URL:https://www.meetup.com/craftersvigo/events/306851647/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://www.meetup.com/craftersvigo/events/304059332/
+DURATION:PT2H
+DTSTART:20241022T173000Z
+SUMMARY:#47 - Coding dojo: Bank OCR
+UID:6bc73251-1e30-4e27-808e-f56ed96c7869@6bc7.org
+URL:https://www.meetup.com/craftersvigo/events/304059332/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://www.meetup.com/craftersvigo/events/313020309/
+DURATION:PT2H
+DTSTART:20260127T183000Z
+SUMMARY:#61 - Iniciamos el nuevo curso!!!
+UID:3f507281-161a-4337-8a98-3f8ab2ad9207@3f50.org
+URL:https://www.meetup.com/craftersvigo/events/313020309/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://www.meetup.com/craftersvigo/events/308180042/
+DURATION:PT2H
+DTSTART:20250603T173000Z
+SUMMARY:#59 - Coding Dojo & PulpoCon25
+UID:ab437bd7-f318-49ec-ae9b-cc2c6fee0c0c@ab43.org
+URL:https://www.meetup.com/craftersvigo/events/308180042/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://www.meetup.com/craftersvigo/events/308461839/
+DURATION:PT2H
+DTSTART:20250617T173000Z
+SUMMARY:#60 - Coding Dojo & Fin de temporada
+UID:43657cf5-75f3-4d87-853b-c21ecf66bace@4365.org
+URL:https://www.meetup.com/craftersvigo/events/308461839/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://www.meetup.com/craftersvigo/events/306549592/
+DURATION:PT2H
+DTSTART:20250311T183000Z
+SUMMARY:#53 - The ScoreKeeper Kata
+UID:67ee71fe-5054-43e8-a2b1-9d0abbad870f@67ee.org
+URL:https://www.meetup.com/craftersvigo/events/306549592/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://www.meetup.com/craftersvigo/events/304843661/
+DURATION:PT2H
+DTSTART:20241203T183000Z
+SUMMARY:#51 - Coding dojo: Args
+UID:c69ff5d3-603d-49bc-9f85-045d23a807c9@c69f.org
+URL:https://www.meetup.com/craftersvigo/events/304843661/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://www.meetup.com/craftersvigo/events/307109665/
+DURATION:PT2H
+DTSTART:20250408T173000Z
+SUMMARY:#54 - The Cupcake Kata
+UID:70aa3f3b-a380-4925-ae95-e0cd8dbc61c7@70aa.org
+URL:https://www.meetup.com/craftersvigo/events/307109665/
 END:VEVENT
 END:VCALENDAR
