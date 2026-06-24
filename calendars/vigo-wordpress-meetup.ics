@@ -2,99 +2,99 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/vigo-wordpress-meetup/events/307939459/
+DESCRIPTION:https://www.meetup.com/vigo-wordpress-meetup/events/312317208/
 DURATION:PT2H
-DTSTART:20250529T170000Z
-SUMMARY:IA generativa y marketing real: cómo ahorrar tiempo\,vender más y fidelizar mejor
-UID:52d457ed-0b94-47f8-88d1-022ed2575e22@52d4.org
-URL:https://www.meetup.com/vigo-wordpress-meetup/events/307939459/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/vigo-wordpress-meetup/events/311981888/
-DURATION:PT2H
-DTSTART:20251118T180000Z
-SUMMARY:Cómo destacar tu perfil profesional y atraer oportunidades
-UID:27847403-0aed-4f83-bc84-5708f5be9fc1@2784.org
-URL:https://www.meetup.com/vigo-wordpress-meetup/events/311981888/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/vigo-wordpress-meetup/events/306244081/
-DURATION:PT2H
-DTSTART:20250227T180000Z
-SUMMARY:Ni Excel ni la agenda del móvil. Un CRM gratis para gestionar tus oportunidades
-UID:91b17554-349d-40af-9292-f9c950f662d8@91b1.org
-URL:https://www.meetup.com/vigo-wordpress-meetup/events/306244081/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/vigo-wordpress-meetup/events/311568934/
-DURATION:PT2H
-DTSTART:20251030T180000Z
-SUMMARY:Ilustración\, cómic y marca: identidad ilustrada
-UID:04fd662a-706a-4157-b0d3-c6d5a22ab505@04fd.org
-URL:https://www.meetup.com/vigo-wordpress-meetup/events/311568934/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/vigo-wordpress-meetup/events/312940936/
-DURATION:PT2H
-DTSTART:20260128T180000Z
-SUMMARY:Cómo construir una marca sólida y generar ventas a través del contenido gratuito
-UID:5179780c-fae6-4e6e-a520-d7d830161f08@5179.org
-URL:https://www.meetup.com/vigo-wordpress-meetup/events/312940936/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/vigo-wordpress-meetup/events/305092692/
-DURATION:PT2H
-DTSTART:20241219T180000Z
-SUMMARY:El bienestar corporativo y como multiplicar los resultados de la empresa
-UID:ed5708b4-fb61-4c37-b879-fc9d2c384455@ed57.org
-URL:https://www.meetup.com/vigo-wordpress-meetup/events/305092692/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/vigo-wordpress-meetup/events/305649380/
-DURATION:PT2H
-DTSTART:20250130T180000Z
-SUMMARY:Creando asistentes virtuales con Inteligencia Artificial
-UID:818f97c7-c68a-4243-b976-d65f0188ed6f@818f.org
-URL:https://www.meetup.com/vigo-wordpress-meetup/events/305649380/
+DTSTART:20251218T180000Z
+SUMMARY:Aspectos legales del desarrollo de software
+UID:afd3c0ea-53f2-44a2-8977-1bf3d18871be@afd3.org
+URL:https://www.meetup.com/vigo-wordpress-meetup/events/312317208/
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:https://www.meetup.com/vigo-wordpress-meetup/events/303954534/
 DURATION:PT2H
 DTSTART:20241024T170000Z
 SUMMARY:Tácticas de marketing para triunfar online cuando tienes poco presupuesto
-UID:6487fcb9-fcce-4dac-9f91-28c404367c08@6487.org
+UID:0b022456-7c83-49e8-b6e0-a14b9593c0e9@0b02.org
 URL:https://www.meetup.com/vigo-wordpress-meetup/events/303954534/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/vigo-wordpress-meetup/events/308416462/
-DURATION:PT2H
-DTSTART:20250626T170000Z
-SUMMARY:Factura electrónica vs Verifactu: diferencias\, obligaciones y soluciones
-UID:24e56df5-6ac9-4fce-a343-1d0f8e3fd985@24e5.org
-URL:https://www.meetup.com/vigo-wordpress-meetup/events/308416462/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/vigo-wordpress-meetup/events/312317208/
-DURATION:PT2H
-DTSTART:20251218T180000Z
-SUMMARY:Aspectos legales del desarrollo de software
-UID:f199c625-7f30-4d59-905d-6b2d76cd3987@f199.org
-URL:https://www.meetup.com/vigo-wordpress-meetup/events/312317208/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/vigo-wordpress-meetup/events/311055209/
-DURATION:PT2H
-DTSTART:20250924T170000Z
-SUMMARY:No dejes la puerta abierta: ciberseguridad para WordPress
-UID:5c9bf309-4da8-49ab-b9a6-575cae987dfb@5c9b.org
-URL:https://www.meetup.com/vigo-wordpress-meetup/events/311055209/
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:https://www.meetup.com/vigo-wordpress-meetup/events/304618035/
 DURATION:PT2H
 DTSTART:20241128T180000Z
 SUMMARY:Impacto y experiencia del do_action WCVIGO2024
-UID:4a997162-26ba-44f7-884e-d91e2b0b008c@4a99.org
+UID:4ce02bfd-7502-4059-af95-8460f7bc7749@4ce0.org
 URL:https://www.meetup.com/vigo-wordpress-meetup/events/304618035/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://www.meetup.com/vigo-wordpress-meetup/events/311055209/
+DURATION:PT2H
+DTSTART:20250924T170000Z
+SUMMARY:No dejes la puerta abierta: ciberseguridad para WordPress
+UID:70a4221e-84b5-483b-9608-71560683ecef@70a4.org
+URL:https://www.meetup.com/vigo-wordpress-meetup/events/311055209/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://www.meetup.com/vigo-wordpress-meetup/events/308416462/
+DURATION:PT2H
+DTSTART:20250626T170000Z
+SUMMARY:Factura electrónica vs Verifactu: diferencias\, obligaciones y soluciones
+UID:acfeea3e-a98a-4a27-bb94-8de126098477@acfe.org
+URL:https://www.meetup.com/vigo-wordpress-meetup/events/308416462/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://www.meetup.com/vigo-wordpress-meetup/events/311981888/
+DURATION:PT2H
+DTSTART:20251118T180000Z
+SUMMARY:Cómo destacar tu perfil profesional y atraer oportunidades
+UID:345148a1-ea5e-418c-805c-82990ee0b25a@3451.org
+URL:https://www.meetup.com/vigo-wordpress-meetup/events/311981888/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://www.meetup.com/vigo-wordpress-meetup/events/305649380/
+DURATION:PT2H
+DTSTART:20250130T180000Z
+SUMMARY:Creando asistentes virtuales con Inteligencia Artificial
+UID:d3f93377-2c7c-4288-86c7-bc4aab821ca1@d3f9.org
+URL:https://www.meetup.com/vigo-wordpress-meetup/events/305649380/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://www.meetup.com/vigo-wordpress-meetup/events/305092692/
+DURATION:PT2H
+DTSTART:20241219T180000Z
+SUMMARY:El bienestar corporativo y como multiplicar los resultados de la empresa
+UID:0bbb4c3f-af6d-4aac-8dcb-446d732f4ca6@0bbb.org
+URL:https://www.meetup.com/vigo-wordpress-meetup/events/305092692/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://www.meetup.com/vigo-wordpress-meetup/events/306244081/
+DURATION:PT2H
+DTSTART:20250227T180000Z
+SUMMARY:Ni Excel ni la agenda del móvil. Un CRM gratis para gestionar tus oportunidades
+UID:aea311aa-52f5-40b8-ab74-8f67992d56a9@aea3.org
+URL:https://www.meetup.com/vigo-wordpress-meetup/events/306244081/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://www.meetup.com/vigo-wordpress-meetup/events/312940936/
+DURATION:PT2H
+DTSTART:20260128T180000Z
+SUMMARY:Cómo construir una marca sólida y generar ventas a través del contenido gratuito
+UID:de840777-7c2f-4d12-9ebc-1f78385bbf5d@de84.org
+URL:https://www.meetup.com/vigo-wordpress-meetup/events/312940936/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://www.meetup.com/vigo-wordpress-meetup/events/311568934/
+DURATION:PT2H
+DTSTART:20251030T180000Z
+SUMMARY:Ilustración\, cómic y marca: identidad ilustrada
+UID:e8d388e5-02d0-4202-a9fd-f300ee400d18@e8d3.org
+URL:https://www.meetup.com/vigo-wordpress-meetup/events/311568934/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://www.meetup.com/vigo-wordpress-meetup/events/307939459/
+DURATION:PT2H
+DTSTART:20250529T170000Z
+SUMMARY:IA generativa y marketing real: cómo ahorrar tiempo\,vender más y fidelizar mejor
+UID:a0021e96-753e-4d61-96bc-04de8be841c2@a002.org
+URL:https://www.meetup.com/vigo-wordpress-meetup/events/307939459/
 END:VEVENT
 END:VCALENDAR
