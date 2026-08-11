@@ -2,43 +2,59 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/sysarmy-galicia/events/307122209/
+DESCRIPTION:https://www.meetup.com/sysarmy-galicia/events/309384426/
 DURATION:PT2H
-DTSTART:20250412T160000Z
+DTSTART:20250726T180000Z
 SUMMARY:OlivArmy: Tech + Beers
-UID:905b7964-0763-4239-a5b7-c2322e921cf1@905b.org
-URL:https://www.meetup.com/sysarmy-galicia/events/307122209/
+UID:314ac456-01ee-4bbc-a028-89a5faa63ea1@314a.org
+URL:https://www.meetup.com/sysarmy-galicia/events/309384426/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://www.meetup.com/sysarmy-galicia/events/312249141/
+DURATION:PT2H
+DTSTART:20251205T190000Z
+SUMMARY:AdminCañas
+UID:18b521bb-1795-4de2-b60d-9102eb71e6f6@18b5.org
+URL:https://www.meetup.com/sysarmy-galicia/events/312249141/
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:https://www.meetup.com/sysarmy-galicia/events/308538771/
 DURATION:PT2H
 DTSTART:20250628T140000Z
 SUMMARY:OlivArmy: Tech + Beers
-UID:4a9b6f68-936e-4ab9-83d4-635ff2299ab3@4a9b.org
+UID:095b7cc5-3ecb-4aa2-8b37-9fe2ec76373a@095b.org
 URL:https://www.meetup.com/sysarmy-galicia/events/308538771/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://www.meetup.com/sysarmy-galicia/events/307122209/
+DURATION:PT2H
+DTSTART:20250412T160000Z
+SUMMARY:OlivArmy: Tech + Beers
+UID:43478cbf-a08a-49ce-9b34-ad9ce8ba232f@4347.org
+URL:https://www.meetup.com/sysarmy-galicia/events/307122209/
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:https://www.meetup.com/sysarmy-galicia/events/310386622/
 DURATION:PT2H
 DTSTART:20250808T160000Z
 SUMMARY:OlivArmy: Tech + Beers
-UID:bae68995-27cc-4277-933e-4aa01c2c32b4@bae6.org
+UID:bab068a9-4e5a-47e2-b123-c14786e53208@bab0.org
 URL:https://www.meetup.com/sysarmy-galicia/events/310386622/
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/sysarmy-galicia/events/309384426/
+DESCRIPTION:https://www.meetup.com/sysarmy-galicia/events/310808576/
 DURATION:PT2H
-DTSTART:20250726T180000Z
-SUMMARY:OlivArmy: Tech + Beers
-UID:c700146e-e067-412b-97ab-a2c5a5408192@c700.org
-URL:https://www.meetup.com/sysarmy-galicia/events/309384426/
+DTSTART:20250905T180000Z
+SUMMARY:AdminCañas
+UID:006cc8a0-aed2-444f-9ce6-bd48b7319eb3@006c.org
+URL:https://www.meetup.com/sysarmy-galicia/events/310808576/
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:https://www.meetup.com/sysarmy-galicia/events/307749845/
 DURATION:PT2H
 DTSTART:20250516T180000Z
 SUMMARY:AdminCañas Vigo
-UID:2df1b6b8-8ac0-42e8-a7f1-4c8f5de07ab3@2df1.org
+UID:0c9836a6-d274-4848-ad89-87f8769852a6@0c98.org
 URL:https://www.meetup.com/sysarmy-galicia/events/307749845/
 END:VEVENT
 BEGIN:VEVENT
@@ -46,23 +62,7 @@ DESCRIPTION:https://www.meetup.com/sysarmy-galicia/events/310215144/
 DURATION:PT2H
 DTSTART:20250801T180000Z
 SUMMARY:AdminCañas
-UID:a9f4a167-71f9-427d-a3cd-5ad5eb561bdb@a9f4.org
+UID:7a83b2ca-9cf9-4ed3-a64a-c83a5dd83a91@7a83.org
 URL:https://www.meetup.com/sysarmy-galicia/events/310215144/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/sysarmy-galicia/events/310808576/
-DURATION:PT2H
-DTSTART:20250905T180000Z
-SUMMARY:AdminCañas
-UID:a59e3fd1-26af-48cc-9a54-f3a092f8e757@a59e.org
-URL:https://www.meetup.com/sysarmy-galicia/events/310808576/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://www.meetup.com/sysarmy-galicia/events/312249141/
-DURATION:PT2H
-DTSTART:20251205T190000Z
-SUMMARY:AdminCañas
-UID:313c7ae8-2551-4259-866c-bf7f3d993182@313c.org
-URL:https://www.meetup.com/sysarmy-galicia/events/312249141/
 END:VEVENT
 END:VCALENDAR
