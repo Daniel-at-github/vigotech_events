@@ -2,203 +2,203 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DESCRIPTION:https://mobilizon.fr/events/b04acafd-017f-424d-b3c5-45706c3bef21/
-DURATION:PT2H
-DTSTART:20260131T173000Z
-SUMMARY:Xuntanza mensual - xaneiro 26
-UID:9af85992-7f92-4575-835c-5dd9e4cb9d89@9af8.org
-URL:https://mobilizon.fr/events/b04acafd-017f-424d-b3c5-45706c3bef21/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://mobilizon.fr/events/09bbf76d-ffff-463d-b145-9a247857ef1c/
-DURATION:PT2H
-DTSTART:20261031T180000Z
-SUMMARY:Xuntanza mensual de outubro
-UID:f7f1b3d3-4e41-4a8d-81d6-636ce87049ca@f7f1.org
-URL:https://mobilizon.fr/events/09bbf76d-ffff-463d-b145-9a247857ef1c/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://mobilizon.fr/events/feafca59-e14c-41b8-8cf8-0d5f4a33531d/
-DURATION:PT2H
-DTSTART:20240419T170000Z
-SUMMARY:Introdución ao uso de nftables para construír devasas personalizadas
-UID:d3e0e9c1-dec7-4508-b26a-02a3aae734b6@d3e0.org
-URL:https://mobilizon.fr/events/feafca59-e14c-41b8-8cf8-0d5f4a33531d/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://mobilizon.fr/events/38a81f12-434d-43a9-b07c-f9afd114eb22/
-DURATION:PT2H
-DTSTART:20250329T100000Z
-SUMMARY:Xornada de introdución a «Godot Engine»
-UID:84097dc1-4ec0-4b3a-a7dc-e85363ef275a@8409.org
-URL:https://mobilizon.fr/events/38a81f12-434d-43a9-b07c-f9afd114eb22/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://mobilizon.fr/events/d32f498b-d5a7-4794-a087-b3fb2e447e7a/
-DURATION:PT2H
-DTSTART:20250926T170000Z
-SUMMARY:Obradoiro - Instalación dun servidor de correo electrónico propio
-UID:a2acae08-9c0e-4780-af80-5f3faa60055d@a2ac.org
-URL:https://mobilizon.fr/events/d32f498b-d5a7-4794-a087-b3fb2e447e7a/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://mobilizon.fr/events/43229303-3831-4fdd-9e0c-da871c37afa3/
-DURATION:PT2H
-DTSTART:20240601T170000Z
-SUMMARY:Asembleas anuais (2024)
-UID:e2de9220-a1a7-4f9b-a6f5-8f075ea68193@e2de.org
-URL:https://mobilizon.fr/events/43229303-3831-4fdd-9e0c-da871c37afa3/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://mobilizon.fr/events/f47505e5-c055-419d-9c5d-7c601982bcb5/
-DURATION:PT2H
-DTSTART:20240315T180000Z
-SUMMARY:Software libre para fotógrafos\, uso básico de darktable
-UID:67b03266-eca0-4b25-bce7-eb885f7b971a@67b0.org
-URL:https://mobilizon.fr/events/f47505e5-c055-419d-9c5d-7c601982bcb5/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://mobilizon.fr/events/215cbba3-c88e-4df0-901e-39eeb9ba3342/
-DURATION:PT2H
-DTSTART:20250628T163000Z
-SUMMARY:Xuntanza mensual - xuño
-UID:fe09f4c7-5009-46b1-8a12-eb8eee46497a@fe09.org
-URL:https://mobilizon.fr/events/215cbba3-c88e-4df0-901e-39eeb9ba3342/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://mobilizon.fr/events/7a494552-2535-4c88-bfec-549f8d8ee971/
-DURATION:PT2H
-DTSTART:20260530T163000Z
-SUMMARY:Xuntanza mensual de maio
-UID:ef8cd426-525a-44c2-bad7-d72349cec64b@ef8c.org
-URL:https://mobilizon.fr/events/7a494552-2535-4c88-bfec-549f8d8ee971/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://mobilizon.fr/events/58704f7a-a390-44fe-b1e0-8aa80ac819e8/
-DURATION:PT2H
-DTSTART:20260627T090000Z
-SUMMARY:Obradoiro: gravación e difusión de eventos (admítense erros) + xuntanza de GALPon
-UID:0b560c4a-2d2e-4364-9878-d6911c4a88f3@0b56.org
-URL:https://mobilizon.fr/events/58704f7a-a390-44fe-b1e0-8aa80ac819e8/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://mobilizon.fr/events/afab0882-dc91-430d-b5b0-e7883c85ed84/
-DURATION:PT2H
-DTSTART:20250531T170000Z
-SUMMARY:Asambleas anuais da Asociación C. Grupo de Amigos de GNU/Linux de Pontevedra
-UID:335819eb-724b-4985-8eda-f54c3839b1b2@3358.org
-URL:https://mobilizon.fr/events/afab0882-dc91-430d-b5b0-e7883c85ed84/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://mobilizon.fr/events/a2d32966-158d-4d85-870a-c0e27b89152f/
-DURATION:PT2H
-DTSTART:20250125T173000Z
-SUMMARY:Xuntanza mensual - xaneiro
-UID:3f65b584-2062-45b9-9fc3-28432a3fa7fa@3f65.org
-URL:https://mobilizon.fr/events/a2d32966-158d-4d85-870a-c0e27b89152f/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://mobilizon.fr/events/6fcbee3d-2135-4d91-8bf0-dfb972af2406/
-DURATION:PT2H
-DTSTART:20241228T173000Z
-SUMMARY:Xuntanza mensual - decembro
-UID:6233e732-6e36-492c-8a8b-f9282db9940d@6233.org
-URL:https://mobilizon.fr/events/6fcbee3d-2135-4d91-8bf0-dfb972af2406/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://mobilizon.fr/events/3547dd61-b782-40fa-85f9-810b1251f463/
-DURATION:PT2H
-DTSTART:20260801T163000Z
-SUMMARY:Xuntanza mensual de xullo-agosto
-UID:52d49298-7d2e-4adb-b61d-c5fdeb0741b5@52d4.org
-URL:https://mobilizon.fr/events/3547dd61-b782-40fa-85f9-810b1251f463/
-END:VEVENT
-BEGIN:VEVENT
 DESCRIPTION:https://mobilizon.fr/events/663891df-3055-41e5-b749-143184727c19/
 DURATION:PT2H
 DTSTART:20260425T163000Z
 SUMMARY:Xuntanza mensual de abril
-UID:1da5b9ac-b167-462a-bd4a-beec8ef03e2f@1da5.org
+UID:2efcfb8f-1cb9-45f1-bf0c-8fd026bfff08@2efc.org
 URL:https://mobilizon.fr/events/663891df-3055-41e5-b749-143184727c19/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://mobilizon.fr/events/4daca97a-56e4-4e47-abaf-1bf708093f05/
-DURATION:PT2H
-DTSTART:20240727T160000Z
-SUMMARY:Xuntanza mensual - xullo
-UID:be8023a5-3339-487f-9ce9-e84301f86b7c@be80.org
-URL:https://mobilizon.fr/events/4daca97a-56e4-4e47-abaf-1bf708093f05/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://mobilizon.fr/events/f7d6af7c-c8ef-4c1b-a336-e7c379faff21/
-DURATION:PT2H
-DTSTART:20241116T123000Z
-SUMMARY:22 aniversario de GALPon
-UID:cda96403-22f6-4bed-85ec-01b2669f5819@cda9.org
-URL:https://mobilizon.fr/events/f7d6af7c-c8ef-4c1b-a336-e7c379faff21/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://mobilizon.fr/events/f768b288-c1c8-4b39-a815-5603f69f61e7/
-DURATION:PT2H
-DTSTART:20260926T170000Z
-SUMMARY:Xuntanza mensual de setembro
-UID:5454aa18-ec6c-4357-b03a-b284aa89971f@5454.org
-URL:https://mobilizon.fr/events/f768b288-c1c8-4b39-a815-5603f69f61e7/
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:https://mobilizon.fr/events/b0381ccc-caa6-4dce-8df0-316fa5ac32c0/
 DURATION:PT2H
 DTSTART:20250426T080000Z
 SUMMARY:Obradoiro sobre contornos de programación por bloques «Snap!» e «microblocks»
-UID:c086fe02-f32a-406b-a6d9-87c20b3fe944@c086.org
+UID:46d66dd5-f3ab-4c30-a96f-f670a8ad78ae@46d6.org
 URL:https://mobilizon.fr/events/b0381ccc-caa6-4dce-8df0-316fa5ac32c0/
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:https://mobilizon.fr/events/bb5c752d-b324-43d6-80c8-67a16e3a32c0/
+DESCRIPTION:https://mobilizon.fr/events/7a494552-2535-4c88-bfec-549f8d8ee971/
 DURATION:PT2H
-DTSTART:20260328T173000Z
-SUMMARY:Xuntanza mensual de marzo
-UID:c11e3236-9070-4c82-8fcd-71e56f96d400@c11e.org
-URL:https://mobilizon.fr/events/bb5c752d-b324-43d6-80c8-67a16e3a32c0/
+DTSTART:20260530T163000Z
+SUMMARY:Xuntanza mensual de maio
+UID:61fe8267-dfaa-4fc4-b951-e0a308820a06@61fe.org
+URL:https://mobilizon.fr/events/7a494552-2535-4c88-bfec-549f8d8ee971/
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:https://mobilizon.fr/events/362721b6-1bc7-419b-bcde-f707a2ed50b7/
 DURATION:PT2H
 DTSTART:20251129T173000Z
 SUMMARY:Xuntanza mensual - novembro- conmemoración 23 aniversario
-UID:fec4dc92-3d34-4ccc-9f6d-4efe49aa26b3@fec4.org
+UID:a8638e35-f21a-4489-af53-962d25f0e8ed@a863.org
 URL:https://mobilizon.fr/events/362721b6-1bc7-419b-bcde-f707a2ed50b7/
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:https://mobilizon.fr/events/0e39d53f-b800-4374-892f-b299f5a4896f/
+DESCRIPTION:https://mobilizon.fr/events/f7d6af7c-c8ef-4c1b-a336-e7c379faff21/
 DURATION:PT2H
-DTSTART:20240426T170000Z
-SUMMARY:Software libre para radioafeccionados
-UID:99212ac0-adbe-4432-af56-4bde12e94da4@9921.org
-URL:https://mobilizon.fr/events/0e39d53f-b800-4374-892f-b299f5a4896f/
+DTSTART:20241116T123000Z
+SUMMARY:22 aniversario de GALPon
+UID:078c5cbc-7192-4bd4-a79d-a3a4a9e99a53@078c.org
+URL:https://mobilizon.fr/events/f7d6af7c-c8ef-4c1b-a336-e7c379faff21/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://mobilizon.fr/events/feafca59-e14c-41b8-8cf8-0d5f4a33531d/
+DURATION:PT2H
+DTSTART:20240419T170000Z
+SUMMARY:Introdución ao uso de nftables para construír devasas personalizadas
+UID:86b5810c-48d6-4abb-991b-de9f4ccca11f@86b5.org
+URL:https://mobilizon.fr/events/feafca59-e14c-41b8-8cf8-0d5f4a33531d/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://mobilizon.fr/events/f47505e5-c055-419d-9c5d-7c601982bcb5/
+DURATION:PT2H
+DTSTART:20240315T180000Z
+SUMMARY:Software libre para fotógrafos\, uso básico de darktable
+UID:691124b2-bdc1-4912-bfc7-e7e4b45a3e8d@6911.org
+URL:https://mobilizon.fr/events/f47505e5-c055-419d-9c5d-7c601982bcb5/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://mobilizon.fr/events/a2d32966-158d-4d85-870a-c0e27b89152f/
+DURATION:PT2H
+DTSTART:20250125T173000Z
+SUMMARY:Xuntanza mensual - xaneiro
+UID:b42de19e-f49f-4ba6-8cb6-8febb1ba3ba7@b42d.org
+URL:https://mobilizon.fr/events/a2d32966-158d-4d85-870a-c0e27b89152f/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://mobilizon.fr/events/afab0882-dc91-430d-b5b0-e7883c85ed84/
+DURATION:PT2H
+DTSTART:20250531T170000Z
+SUMMARY:Asambleas anuais da Asociación C. Grupo de Amigos de GNU/Linux de Pontevedra
+UID:7c29e686-ef25-43e1-b247-6e0be5f422c7@7c29.org
+URL:https://mobilizon.fr/events/afab0882-dc91-430d-b5b0-e7883c85ed84/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://mobilizon.fr/events/38a81f12-434d-43a9-b07c-f9afd114eb22/
+DURATION:PT2H
+DTSTART:20250329T100000Z
+SUMMARY:Xornada de introdución a «Godot Engine»
+UID:2eda6010-fdca-4b5a-a41e-c6caeed172c1@2eda.org
+URL:https://mobilizon.fr/events/38a81f12-434d-43a9-b07c-f9afd114eb22/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://mobilizon.fr/events/b04acafd-017f-424d-b3c5-45706c3bef21/
+DURATION:PT2H
+DTSTART:20260131T173000Z
+SUMMARY:Xuntanza mensual - xaneiro 26
+UID:2a8b2865-1b9c-469c-a980-83ef2e80b044@2a8b.org
+URL:https://mobilizon.fr/events/b04acafd-017f-424d-b3c5-45706c3bef21/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://mobilizon.fr/events/6fcbee3d-2135-4d91-8bf0-dfb972af2406/
+DURATION:PT2H
+DTSTART:20241228T173000Z
+SUMMARY:Xuntanza mensual - decembro
+UID:ad8af543-a04e-4fb4-a8bb-49191e885c87@ad8a.org
+URL:https://mobilizon.fr/events/6fcbee3d-2135-4d91-8bf0-dfb972af2406/
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:https://mobilizon.fr/events/a7ba609e-1f92-41a0-ad2b-5ac65083caed/
 DURATION:PT2H
 DTSTART:20250222T173000Z
 SUMMARY:Xuntanza mensual - febreiro
-UID:def6f73e-647b-4586-bc38-3b101b819e60@def6.org
+UID:a919177b-052d-41b4-843b-65baca259121@a919.org
 URL:https://mobilizon.fr/events/a7ba609e-1f92-41a0-ad2b-5ac65083caed/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://mobilizon.fr/events/bb5c752d-b324-43d6-80c8-67a16e3a32c0/
+DURATION:PT2H
+DTSTART:20260328T173000Z
+SUMMARY:Xuntanza mensual de marzo
+UID:ed44d7fd-86a8-49b4-9d80-b5b840d76eef@ed44.org
+URL:https://mobilizon.fr/events/bb5c752d-b324-43d6-80c8-67a16e3a32c0/
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:https://mobilizon.fr/events/e77ac095-1472-42b0-b395-3318b49602ac/
 DURATION:PT2H
 DTSTART:20240629T163000Z
 SUMMARY:Xuntanza mensual - xuño
-UID:6ecd1337-6deb-4db1-af4b-516e46ef51b2@6ecd.org
+UID:3a53176c-e723-4e56-bdc9-1a695e63c244@3a53.org
 URL:https://mobilizon.fr/events/e77ac095-1472-42b0-b395-3318b49602ac/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://mobilizon.fr/events/3547dd61-b782-40fa-85f9-810b1251f463/
+DURATION:PT2H
+DTSTART:20260801T163000Z
+SUMMARY:Xuntanza mensual de xullo-agosto
+UID:ece119a3-113a-4495-9386-9afeb0035895@ece1.org
+URL:https://mobilizon.fr/events/3547dd61-b782-40fa-85f9-810b1251f463/
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:https://mobilizon.fr/events/b29a19b6-f201-47b0-92a6-298b223ff048/
 DURATION:PT2H
 DTSTART:20240928T160000Z
 SUMMARY:Xuntanza mensual -setembro
-UID:4e3f80d8-e37c-4e46-9376-40fa1de1fe2e@4e3f.org
+UID:a9d6c98b-0f91-4f66-aab7-e92d07400e57@a9d6.org
 URL:https://mobilizon.fr/events/b29a19b6-f201-47b0-92a6-298b223ff048/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://mobilizon.fr/events/4daca97a-56e4-4e47-abaf-1bf708093f05/
+DURATION:PT2H
+DTSTART:20240727T160000Z
+SUMMARY:Xuntanza mensual - xullo
+UID:c7d9a72f-e4d3-412a-ae9d-1a152aa3ab0d@c7d9.org
+URL:https://mobilizon.fr/events/4daca97a-56e4-4e47-abaf-1bf708093f05/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://mobilizon.fr/events/d32f498b-d5a7-4794-a087-b3fb2e447e7a/
+DURATION:PT2H
+DTSTART:20250926T170000Z
+SUMMARY:Obradoiro - Instalación dun servidor de correo electrónico propio
+UID:33d595f9-84a5-4f18-9605-04d30fd7b18b@33d5.org
+URL:https://mobilizon.fr/events/d32f498b-d5a7-4794-a087-b3fb2e447e7a/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://mobilizon.fr/events/58704f7a-a390-44fe-b1e0-8aa80ac819e8/
+DURATION:PT2H
+DTSTART:20260627T090000Z
+SUMMARY:Obradoiro: gravación e difusión de eventos (admítense erros) + xuntanza de GALPon
+UID:5a6b90e1-1981-44ec-a7c1-fe2709873eeb@5a6b.org
+URL:https://mobilizon.fr/events/58704f7a-a390-44fe-b1e0-8aa80ac819e8/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://mobilizon.fr/events/0e39d53f-b800-4374-892f-b299f5a4896f/
+DURATION:PT2H
+DTSTART:20240426T170000Z
+SUMMARY:Software libre para radioafeccionados
+UID:330547d4-d0cb-4059-bedb-e9939634fee0@3305.org
+URL:https://mobilizon.fr/events/0e39d53f-b800-4374-892f-b299f5a4896f/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://mobilizon.fr/events/f768b288-c1c8-4b39-a815-5603f69f61e7/
+DURATION:PT2H
+DTSTART:20260926T170000Z
+SUMMARY:Xuntanza mensual de setembro
+UID:e6d6de2a-064f-460f-93ef-1a4614e75091@e6d6.org
+URL:https://mobilizon.fr/events/f768b288-c1c8-4b39-a815-5603f69f61e7/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://mobilizon.fr/events/215cbba3-c88e-4df0-901e-39eeb9ba3342/
+DURATION:PT2H
+DTSTART:20250628T163000Z
+SUMMARY:Xuntanza mensual - xuño
+UID:842a24fa-b659-4c0c-b132-7873ff083ddd@842a.org
+URL:https://mobilizon.fr/events/215cbba3-c88e-4df0-901e-39eeb9ba3342/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://mobilizon.fr/events/09bbf76d-ffff-463d-b145-9a247857ef1c/
+DURATION:PT2H
+DTSTART:20261031T180000Z
+SUMMARY:Xuntanza mensual de outubro
+UID:bac1f817-34f3-4bed-98a4-2f92546e3a84@bac1.org
+URL:https://mobilizon.fr/events/09bbf76d-ffff-463d-b145-9a247857ef1c/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://mobilizon.fr/events/43229303-3831-4fdd-9e0c-da871c37afa3/
+DURATION:PT2H
+DTSTART:20240601T170000Z
+SUMMARY:Asembleas anuais (2024)
+UID:6eb0c0d9-908f-4f32-ade1-680d74da7732@6eb0.org
+URL:https://mobilizon.fr/events/43229303-3831-4fdd-9e0c-da871c37afa3/
 END:VEVENT
 END:VCALENDAR
